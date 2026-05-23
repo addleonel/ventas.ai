@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block contenido %}
+<div class="card">
+    <h2>Probar con datos de demostracion</h2>
+    <p>
+        Si solo quieres ver como funciona la aplicacion, usa el CSV de ejemplo
+        que ya incluye <strong>250 ventas ficticias</strong> de productos en
+        varias ciudades de Colombia.
+    </p>
+    <div class="botones">
+        <a href="{{ url_for('demo') }}" class="btn btn-primary">Usar datos de demo</a>
+    </div>
+</div>
+
+<div class="card">
+    <h2>Analizar mi propio archivo</h2>
+    <p>
+        Sube un archivo <code>.csv</code> con tus ventas. Debe incluir al menos
+        las columnas: <code>fecha</code>, <code>producto</code>,
+        <code>categoria</code>, <code>cantidad</code>,
+        <code>precio_unitario</code>, <code>total</code>.
+    </p>
+    <form action="{{ url_for('analizar') }}" method="post" enctype="multipart/form-data">
+        <input type="file" name="archivo" accept=".csv" required>
+        <button type="submit" class="btn btn-primary">Analizar CSV</button>
+    </form>
+</div>
+{% endblock %}

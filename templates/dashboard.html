@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% block titulo %}Dashboard - Analisis de Ventas{% endblock %}
+
+{% block contenido %}
+<div class="card">
+    <h2>Resumen del periodo</h2>
+    <p>
+        Datos analizados entre <strong>{{ metricas.fecha_inicio }}</strong> y
+        <strong>{{ metricas.fecha_fin }}</strong>.
+    </p>
+    <div class="metricas">
+        <div class="metrica">
+            <span class="valor">${{ "{:,.0f}".format(metricas.total_ventas) }}</span>
+            <span class="etiqueta">Ventas totales</span>
+        </div>
+        <div class="metrica">
+            <span class="valor">{{ metricas.n_transacciones }}</span>
+            <span class="etiqueta">Transacciones</span>
+        </div>
+        <div class="metrica">
+            <span class="valor">${{ "{:,.0f}".format(metricas.ticket_promedio) }}</span>
+            <span class="etiqueta">Ticket promedio</span>
+        </div>
+        <div class="metrica">
+            <span class="valor">{{ metricas.unidades_vendidas }}</span>
+            <span class="etiqueta">Unidades vendidas</span>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <h2>Resumen ejecutivo generado por IA</h2>
+    <div class="resumen-ia">{{ resumen_ia }}</div>
+</div>
+
+<div class="card">
+    <h2>Visualizaciones</h2>
+    <div class="graficos">
+        {% if graficos.top_productos %}
+        <div class="grafico">
+            <img src="{{ url_for('static', filename=graficos.top_productos) }}" alt="Top productos">
+        </div>
+        {% endif %}
+        {% if graficos.ventas_mes %}
+        <div class="grafico">
+            <img src="{{ url_for('static', filename=graficos.ventas_mes) }}" alt="Ventas por mes">
+        </div>
+        {% endif %}
+        {% if graficos.categorias %}
+        <div class="grafico">
+            <img src="{{ url_for('static', filename=graficos.categorias) }}" alt="Ventas por categoria">
+        </div>
+        {% endif %}
+        {% if graficos.top_clientes %}
+        <div class="grafico">
+            <img src="{{ url_for('static', filename=graficos.top_clientes) }}" alt="Top clientes">
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<div class="card">
+    <h2>Top productos (detalle)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Ventas totales</th>
+                <th>Unidades</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for fila in tabla_productos %}
+            <tr>
+                <td>{{ fila.producto }}</td>
+                <td>${{ "{:,.0f}".format(fila.total) }}</td>
+                <td>{{ fila.unidades }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="botones">
+    <a href="{{ url_for('index') }}" class="btn btn-secondary">Analizar otro archivo</a>
+</div>
+{% endblock %}

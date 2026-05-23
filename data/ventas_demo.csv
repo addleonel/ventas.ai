@@ -1,0 +1,251 @@
+id_venta,fecha,producto,categoria,cantidad,precio_unitario,total,cliente,ciudad
+5,2025-11-02,Cuaderno Universitario,Papeleria,4,12107,48428,Distribuidora Gamma,Bucaramanga
+33,2025-11-02,Resma Papel Carta,Papeleria,2,25134,50268,Comercial Beta LTDA,Bucaramanga
+21,2025-11-03,Silla Ergonomica Oficina,Mobiliario,4,712033,2848132,Comercial Beta LTDA,Bucaramanga
+121,2025-11-03,Resma Papel Carta,Papeleria,1,25502,25502,Mayorista Iota,Medellin
+105,2025-11-05,Lampara LED Escritorio,Mobiliario,1,92646,92646,Mayorista Iota,Bogota
+123,2025-11-05,Cuaderno Universitario,Papeleria,2,12175,24350,Comercial Beta LTDA,Cali
+242,2025-11-05,Lampara LED Escritorio,Mobiliario,1,98436,98436,Negocios Theta,Bogota
+205,2025-11-06,Monitor LG 24'',Tecnologia,2,963461,1926922,Empresa Alfa SAS,Cali
+209,2025-11-07,Silla Ergonomica Oficina,Mobiliario,1,700298,700298,Distribuidora Gamma,Bogota
+119,2025-11-08,Resma Papel Carta,Papeleria,1,25275,25275,Negocios Theta,Cali
+68,2025-11-10,Teclado Mecanico Redragon,Tecnologia,1,226322,226322,Negocios Theta,Medellin
+198,2025-11-10,Lampara LED Escritorio,Mobiliario,1,91358,91358,Servicios Epsilon,Barranquilla
+64,2025-11-11,Laptop Lenovo IdeaPad,Tecnologia,4,2746312,10985248,Grupo Zeta SAS,Medellin
+176,2025-11-12,Teclado Mecanico Redragon,Tecnologia,5,224268,1121340,Grupo Zeta SAS,Bogota
+213,2025-11-12,Cuaderno Universitario,Papeleria,5,12004,60020,Mayorista Iota,Cali
+103,2025-11-13,Lampara LED Escritorio,Mobiliario,2,91539,183078,Servicios Epsilon,Barranquilla
+59,2025-11-14,Cuaderno Universitario,Papeleria,5,11701,58505,Comercial Beta LTDA,Bucaramanga
+134,2025-11-14,Cuaderno Universitario,Papeleria,2,11488,22976,Distribuidora Gamma,Medellin
+14,2025-11-15,Boligrafos Caja x12,Papeleria,1,17495,17495,Inversiones Delta,Bogota
+96,2025-11-16,Lampara LED Escritorio,Mobiliario,2,93393,186786,Inversiones Delta,Barranquilla
+32,2025-11-17,Boligrafos Caja x12,Papeleria,1,17912,17912,Grupo Zeta SAS,Bogota
+85,2025-11-19,Laptop Lenovo IdeaPad,Tecnologia,2,2728555,5457110,Negocios Theta,Barranquilla
+215,2025-11-19,Mouse Inalambrico Logitech,Tecnologia,5,84917,424585,Comercial Beta LTDA,Cali
+93,2025-11-20,Cuaderno Universitario,Papeleria,1,12152,12152,Servicios Epsilon,Medellin
+111,2025-11-20,Lampara LED Escritorio,Mobiliario,3,94018,282054,Soluciones Kappa,Bucaramanga
+192,2025-11-20,Escritorio Madera 120cm,Mobiliario,2,463690,927380,Distribuidora Gamma,Medellin
+94,2025-11-21,Silla Ergonomica Oficina,Mobiliario,4,668837,2675348,Distribuidora Gamma,Medellin
+28,2025-11-22,Monitor LG 24'',Tecnologia,5,985910,4929550,Negocios Theta,Bogota
+2,2025-11-23,Mouse Inalambrico Logitech,Tecnologia,4,86501,346004,Soluciones Kappa,Barranquilla
+38,2025-11-26,Laptop Lenovo IdeaPad,Tecnologia,10,2848542,28485420,Empresa Alfa SAS,Barranquilla
+41,2025-11-26,Cuaderno Universitario,Papeleria,4,12369,49476,Empresa Alfa SAS,Bucaramanga
+183,2025-11-28,Monitor LG 24'',Tecnologia,4,997440,3989760,Inversiones Delta,Barranquilla
+195,2025-11-28,Lampara LED Escritorio,Mobiliario,5,98062,490310,Inversiones Delta,Barranquilla
+133,2025-11-30,Laptop Lenovo IdeaPad,Tecnologia,4,2730693,10922772,Comercial Beta LTDA,Barranquilla
+218,2025-11-30,Resma Papel Carta,Papeleria,3,24825,74475,Mayorista Iota,Bucaramanga
+236,2025-11-30,Lampara LED Escritorio,Mobiliario,3,92845,278535,Grupo Zeta SAS,Barranquilla
+101,2025-12-03,Lampara LED Escritorio,Mobiliario,4,97129,388516,Soluciones Kappa,Cartagena
+130,2025-12-03,Teclado Mecanico Redragon,Tecnologia,3,215649,646947,Servicios Epsilon,Bogota
+131,2025-12-03,Laptop Lenovo IdeaPad,Tecnologia,3,2814940,8444820,Negocios Theta,Bogota
+199,2025-12-05,Mouse Inalambrico Logitech,Tecnologia,4,81576,326304,Tienda Eta,Barranquilla
+18,2025-12-06,Resma Papel Carta,Papeleria,1,24748,24748,Mayorista Iota,Barranquilla
+239,2025-12-06,Monitor LG 24'',Tecnologia,1,931134,931134,Servicios Epsilon,Cali
+63,2025-12-08,Laptop Lenovo IdeaPad,Tecnologia,2,2893686,5787372,Tienda Eta,Medellin
+208,2025-12-08,Resma Papel Carta,Papeleria,4,23757,95028,Distribuidora Gamma,Cartagena
+19,2025-12-10,Mouse Inalambrico Logitech,Tecnologia,4,87174,348696,Distribuidora Gamma,Bucaramanga
+107,2025-12-10,Monitor LG 24'',Tecnologia,1,921439,921439,Inversiones Delta,Medellin
+66,2025-12-12,Teclado Mecanico Redragon,Tecnologia,1,229366,229366,Distribuidora Gamma,Barranquilla
+244,2025-12-14,Mouse Inalambrico Logitech,Tecnologia,10,84192,841920,Soluciones Kappa,Barranquilla
+149,2025-12-15,Silla Ergonomica Oficina,Mobiliario,3,685184,2055552,Negocios Theta,Cartagena
+178,2025-12-15,Resma Papel Carta,Papeleria,1,25454,25454,Comercial Beta LTDA,Cartagena
+45,2025-12-19,Boligrafos Caja x12,Papeleria,2,18291,36582,Servicios Epsilon,Medellin
+74,2025-12-19,Boligrafos Caja x12,Papeleria,4,17308,69232,Servicios Epsilon,Bogota
+39,2025-12-20,Escritorio Madera 120cm,Mobiliario,1,463526,463526,Inversiones Delta,Cartagena
+78,2025-12-20,Lampara LED Escritorio,Mobiliario,2,96873,193746,Tienda Eta,Bucaramanga
+84,2025-12-21,Monitor LG 24'',Tecnologia,1,966415,966415,Distribuidora Gamma,Bogota
+58,2025-12-23,Silla Ergonomica Oficina,Mobiliario,3,687128,2061384,Servicios Epsilon,Cartagena
+156,2025-12-23,Cuaderno Universitario,Papeleria,3,12150,36450,Servicios Epsilon,Cartagena
+206,2025-12-23,Monitor LG 24'',Tecnologia,3,996437,2989311,Comercial Beta LTDA,Cartagena
+30,2025-12-25,Silla Ergonomica Oficina,Mobiliario,2,681881,1363762,Mayorista Iota,Bucaramanga
+95,2025-12-25,Monitor LG 24'',Tecnologia,1,938888,938888,Comercial Beta LTDA,Barranquilla
+108,2025-12-26,Cuaderno Universitario,Papeleria,2,12203,24406,Negocios Theta,Bucaramanga
+1,2025-12-28,Mouse Inalambrico Logitech,Tecnologia,1,80962,80962,Distribuidora Gamma,Bucaramanga
+136,2025-12-28,Lampara LED Escritorio,Mobiliario,3,96010,288030,Mayorista Iota,Barranquilla
+159,2025-12-28,Boligrafos Caja x12,Papeleria,2,17124,34248,Comercial Beta LTDA,Barranquilla
+226,2025-12-28,Boligrafos Caja x12,Papeleria,3,17482,52446,Comercial Beta LTDA,Cali
+186,2025-12-29,Cuaderno Universitario,Papeleria,5,12399,61995,Soluciones Kappa,Cali
+207,2025-12-30,Monitor LG 24'',Tecnologia,4,958206,3832824,Grupo Zeta SAS,Medellin
+139,2026-01-01,Monitor LG 24'',Tecnologia,1,927641,927641,Distribuidora Gamma,Cartagena
+158,2026-01-01,Laptop Lenovo IdeaPad,Tecnologia,2,2932481,5864962,Distribuidora Gamma,Cali
+177,2026-01-02,Silla Ergonomica Oficina,Mobiliario,2,670375,1340750,Mayorista Iota,Barranquilla
+245,2026-01-02,Escritorio Madera 120cm,Mobiliario,4,431465,1725860,Tienda Eta,Cartagena
+135,2026-01-03,Resma Papel Carta,Papeleria,1,26122,26122,Comercial Beta LTDA,Cartagena
+126,2026-01-04,Escritorio Madera 120cm,Mobiliario,1,459128,459128,Inversiones Delta,Bogota
+182,2026-01-04,Silla Ergonomica Oficina,Mobiliario,2,689447,1378894,Negocios Theta,Cali
+191,2026-01-05,Boligrafos Caja x12,Papeleria,4,18744,74976,Negocios Theta,Cali
+120,2026-01-06,Teclado Mecanico Redragon,Tecnologia,1,219726,219726,Grupo Zeta SAS,Cali
+17,2026-01-07,Teclado Mecanico Redragon,Tecnologia,2,214425,428850,Soluciones Kappa,Barranquilla
+171,2026-01-07,Teclado Mecanico Redragon,Tecnologia,3,210646,631938,Grupo Zeta SAS,Cartagena
+229,2026-01-08,Resma Papel Carta,Papeleria,4,26072,104288,Empresa Alfa SAS,Medellin
+116,2026-01-09,Teclado Mecanico Redragon,Tecnologia,10,225143,2251430,Soluciones Kappa,Cartagena
+70,2026-01-11,Laptop Lenovo IdeaPad,Tecnologia,1,2844809,2844809,Comercial Beta LTDA,Cali
+141,2026-01-12,Silla Ergonomica Oficina,Mobiliario,1,648219,648219,Negocios Theta,Bogota
+80,2026-01-13,Lampara LED Escritorio,Mobiliario,1,95455,95455,Inversiones Delta,Barranquilla
+174,2026-01-13,Resma Papel Carta,Papeleria,2,23921,47842,Inversiones Delta,Bucaramanga
+10,2026-01-14,Mouse Inalambrico Logitech,Tecnologia,1,81139,81139,Comercial Beta LTDA,Medellin
+129,2026-01-15,Silla Ergonomica Oficina,Mobiliario,4,712674,2850696,Inversiones Delta,Cali
+189,2026-01-15,Resma Papel Carta,Papeleria,1,24662,24662,Grupo Zeta SAS,Bucaramanga
+217,2026-01-15,Escritorio Madera 120cm,Mobiliario,2,444640,889280,Negocios Theta,Cartagena
+52,2026-01-16,Silla Ergonomica Oficina,Mobiliario,3,672913,2018739,Negocios Theta,Cali
+56,2026-01-16,Boligrafos Caja x12,Papeleria,4,17114,68456,Comercial Beta LTDA,Medellin
+98,2026-01-16,Lampara LED Escritorio,Mobiliario,5,94781,473905,Tienda Eta,Barranquilla
+164,2026-01-16,Silla Ergonomica Oficina,Mobiliario,1,701797,701797,Soluciones Kappa,Cartagena
+27,2026-01-18,Escritorio Madera 120cm,Mobiliario,4,467042,1868168,Inversiones Delta,Bogota
+69,2026-01-18,Monitor LG 24'',Tecnologia,2,980075,1960150,Inversiones Delta,Medellin
+144,2026-01-18,Teclado Mecanico Redragon,Tecnologia,1,210571,210571,Soluciones Kappa,Bucaramanga
+77,2026-01-19,Mouse Inalambrico Logitech,Tecnologia,1,86867,86867,Tienda Eta,Cali
+110,2026-01-19,Silla Ergonomica Oficina,Mobiliario,1,653350,653350,Soluciones Kappa,Bucaramanga
+188,2026-01-19,Mouse Inalambrico Logitech,Tecnologia,2,88428,176856,Negocios Theta,Bogota
+246,2026-01-19,Lampara LED Escritorio,Mobiliario,1,95227,95227,Grupo Zeta SAS,Medellin
+73,2026-01-20,Mouse Inalambrico Logitech,Tecnologia,1,85820,85820,Tienda Eta,Cartagena
+147,2026-01-22,Resma Papel Carta,Papeleria,2,23849,47698,Soluciones Kappa,Cali
+166,2026-01-22,Boligrafos Caja x12,Papeleria,1,18473,18473,Inversiones Delta,Bucaramanga
+210,2026-01-22,Escritorio Madera 120cm,Mobiliario,1,463049,463049,Empresa Alfa SAS,Medellin
+196,2026-01-23,Laptop Lenovo IdeaPad,Tecnologia,5,2833473,14167365,Soluciones Kappa,Medellin
+233,2026-01-23,Escritorio Madera 120cm,Mobiliario,1,434583,434583,Soluciones Kappa,Cartagena
+34,2026-01-24,Laptop Lenovo IdeaPad,Tecnologia,5,2724103,13620515,Comercial Beta LTDA,Cartagena
+76,2026-01-24,Lampara LED Escritorio,Mobiliario,3,90914,272742,Soluciones Kappa,Cali
+169,2026-01-24,Laptop Lenovo IdeaPad,Tecnologia,10,2695348,26953480,Comercial Beta LTDA,Barranquilla
+60,2026-01-25,Lampara LED Escritorio,Mobiliario,1,98128,98128,Distribuidora Gamma,Bucaramanga
+230,2026-01-26,Silla Ergonomica Oficina,Mobiliario,1,693783,693783,Grupo Zeta SAS,Bogota
+22,2026-01-27,Boligrafos Caja x12,Papeleria,3,18451,55353,Comercial Beta LTDA,Cali
+7,2026-01-28,Mouse Inalambrico Logitech,Tecnologia,1,83979,83979,Soluciones Kappa,Cali
+54,2026-01-29,Boligrafos Caja x12,Papeleria,1,17483,17483,Comercial Beta LTDA,Medellin
+248,2026-01-29,Boligrafos Caja x12,Papeleria,3,17449,52347,Distribuidora Gamma,Medellin
+225,2026-01-30,Laptop Lenovo IdeaPad,Tecnologia,2,2931151,5862302,Comercial Beta LTDA,Cartagena
+9,2026-02-01,Silla Ergonomica Oficina,Mobiliario,2,702399,1404798,Soluciones Kappa,Medellin
+11,2026-02-02,Mouse Inalambrico Logitech,Tecnologia,2,83981,167962,Distribuidora Gamma,Cali
+193,2026-02-02,Lampara LED Escritorio,Mobiliario,4,99439,397756,Comercial Beta LTDA,Barranquilla
+194,2026-02-03,Laptop Lenovo IdeaPad,Tecnologia,1,2734048,2734048,Servicios Epsilon,Cartagena
+8,2026-02-05,Laptop Lenovo IdeaPad,Tecnologia,2,2864324,5728648,Comercial Beta LTDA,Cartagena
+232,2026-02-05,Laptop Lenovo IdeaPad,Tecnologia,2,2685692,5371384,Tienda Eta,Barranquilla
+168,2026-02-07,Cuaderno Universitario,Papeleria,4,12246,48984,Distribuidora Gamma,Barranquilla
+100,2026-02-08,Monitor LG 24'',Tecnologia,2,928428,1856856,Grupo Zeta SAS,Bucaramanga
+43,2026-02-11,Lampara LED Escritorio,Mobiliario,1,94863,94863,Empresa Alfa SAS,Medellin
+231,2026-02-11,Teclado Mecanico Redragon,Tecnologia,2,228136,456272,Comercial Beta LTDA,Medellin
+154,2026-02-12,Silla Ergonomica Oficina,Mobiliario,10,667982,6679820,Mayorista Iota,Bogota
+151,2026-02-13,Cuaderno Universitario,Papeleria,2,12562,25124,Grupo Zeta SAS,Cali
+67,2026-02-14,Laptop Lenovo IdeaPad,Tecnologia,5,2710220,13551100,Inversiones Delta,Cali
+167,2026-02-14,Monitor LG 24'',Tecnologia,1,956820,956820,Empresa Alfa SAS,Cali
+219,2026-02-14,Monitor LG 24'',Tecnologia,4,943356,3773424,Grupo Zeta SAS,Barranquilla
+163,2026-02-15,Teclado Mecanico Redragon,Tecnologia,1,228008,228008,Grupo Zeta SAS,Cartagena
+114,2026-02-16,Boligrafos Caja x12,Papeleria,1,18265,18265,Negocios Theta,Bogota
+37,2026-02-17,Mouse Inalambrico Logitech,Tecnologia,2,81573,163146,Tienda Eta,Barranquilla
+113,2026-02-18,Resma Papel Carta,Papeleria,1,25706,25706,Grupo Zeta SAS,Bogota
+220,2026-02-18,Lampara LED Escritorio,Mobiliario,1,94201,94201,Grupo Zeta SAS,Bucaramanga
+240,2026-02-19,Escritorio Madera 120cm,Mobiliario,2,432899,865798,Distribuidora Gamma,Medellin
+132,2026-02-21,Laptop Lenovo IdeaPad,Tecnologia,2,2820737,5641474,Grupo Zeta SAS,Medellin
+81,2026-02-22,Resma Papel Carta,Papeleria,1,25266,25266,Negocios Theta,Bucaramanga
+181,2026-02-22,Silla Ergonomica Oficina,Mobiliario,1,692077,692077,Grupo Zeta SAS,Cartagena
+202,2026-02-22,Silla Ergonomica Oficina,Mobiliario,1,648224,648224,Negocios Theta,Medellin
+91,2026-02-23,Boligrafos Caja x12,Papeleria,5,17868,89340,Distribuidora Gamma,Bucaramanga
+118,2026-02-24,Monitor LG 24'',Tecnologia,1,981419,981419,Inversiones Delta,Barranquilla
+44,2026-02-25,Lampara LED Escritorio,Mobiliario,1,90270,90270,Servicios Epsilon,Barranquilla
+89,2026-02-25,Boligrafos Caja x12,Papeleria,4,17548,70192,Distribuidora Gamma,Barranquilla
+153,2026-02-25,Lampara LED Escritorio,Mobiliario,2,97978,195956,Comercial Beta LTDA,Cali
+204,2026-02-25,Lampara LED Escritorio,Mobiliario,10,92870,928700,Comercial Beta LTDA,Bucaramanga
+16,2026-02-26,Cuaderno Universitario,Papeleria,5,11874,59370,Distribuidora Gamma,Cali
+115,2026-02-26,Lampara LED Escritorio,Mobiliario,2,99377,198754,Distribuidora Gamma,Barranquilla
+13,2026-02-27,Teclado Mecanico Redragon,Tecnologia,1,220751,220751,Tienda Eta,Cali
+40,2026-02-27,Cuaderno Universitario,Papeleria,1,11568,11568,Inversiones Delta,Bogota
+145,2026-02-28,Resma Papel Carta,Papeleria,2,26052,52104,Servicios Epsilon,Bucaramanga
+161,2026-03-01,Silla Ergonomica Oficina,Mobiliario,2,674253,1348506,Inversiones Delta,Barranquilla
+29,2026-03-02,Boligrafos Caja x12,Papeleria,1,18478,18478,Mayorista Iota,Medellin
+36,2026-03-02,Resma Papel Carta,Papeleria,1,25190,25190,Tienda Eta,Medellin
+221,2026-03-02,Silla Ergonomica Oficina,Mobiliario,1,671452,671452,Comercial Beta LTDA,Bogota
+214,2026-03-03,Cuaderno Universitario,Papeleria,1,12172,12172,Tienda Eta,Barranquilla
+165,2026-03-04,Cuaderno Universitario,Papeleria,2,12438,24876,Grupo Zeta SAS,Cali
+173,2026-03-05,Escritorio Madera 120cm,Mobiliario,4,455705,1822820,Mayorista Iota,Bogota
+235,2026-03-05,Mouse Inalambrico Logitech,Tecnologia,3,83062,249186,Soluciones Kappa,Barranquilla
+237,2026-03-05,Mouse Inalambrico Logitech,Tecnologia,3,83157,249471,Mayorista Iota,Bucaramanga
+26,2026-03-06,Boligrafos Caja x12,Papeleria,2,18753,37506,Empresa Alfa SAS,Bogota
+201,2026-03-06,Teclado Mecanico Redragon,Tecnologia,3,228479,685437,Soluciones Kappa,Barranquilla
+86,2026-03-07,Resma Papel Carta,Papeleria,3,24236,72708,Tienda Eta,Medellin
+146,2026-03-07,Lampara LED Escritorio,Mobiliario,2,99205,198410,Negocios Theta,Bogota
+250,2026-03-07,Mouse Inalambrico Logitech,Tecnologia,3,82255,246765,Negocios Theta,Cartagena
+3,2026-03-10,Laptop Lenovo IdeaPad,Tecnologia,1,2668343,2668343,Soluciones Kappa,Bogota
+212,2026-03-12,Mouse Inalambrico Logitech,Tecnologia,3,84798,254394,Soluciones Kappa,Bogota
+88,2026-03-13,Monitor LG 24'',Tecnologia,10,919209,9192090,Negocios Theta,Bogota
+155,2026-03-13,Boligrafos Caja x12,Papeleria,1,17931,17931,Grupo Zeta SAS,Cartagena
+211,2026-03-15,Silla Ergonomica Oficina,Mobiliario,3,649563,1948689,Comercial Beta LTDA,Bucaramanga
+47,2026-03-16,Laptop Lenovo IdeaPad,Tecnologia,2,2823569,5647138,Distribuidora Gamma,Bogota
+71,2026-03-18,Escritorio Madera 120cm,Mobiliario,1,456366,456366,Grupo Zeta SAS,Bogota
+75,2026-03-18,Lampara LED Escritorio,Mobiliario,5,90266,451330,Inversiones Delta,Cali
+35,2026-03-19,Monitor LG 24'',Tecnologia,2,928955,1857910,Distribuidora Gamma,Bucaramanga
+190,2026-03-19,Lampara LED Escritorio,Mobiliario,1,91918,91918,Grupo Zeta SAS,Cartagena
+200,2026-03-19,Escritorio Madera 120cm,Mobiliario,3,457671,1373013,Tienda Eta,Cartagena
+4,2026-03-20,Boligrafos Caja x12,Papeleria,2,17457,34914,Tienda Eta,Medellin
+55,2026-03-20,Escritorio Madera 120cm,Mobiliario,2,440324,880648,Servicios Epsilon,Cartagena
+203,2026-03-20,Escritorio Madera 120cm,Mobiliario,3,431970,1295910,Grupo Zeta SAS,Bogota
+57,2026-03-22,Silla Ergonomica Oficina,Mobiliario,1,653849,653849,Distribuidora Gamma,Cali
+122,2026-03-23,Mouse Inalambrico Logitech,Tecnologia,2,82801,165602,Inversiones Delta,Bucaramanga
+65,2026-03-24,Monitor LG 24'',Tecnologia,1,965858,965858,Tienda Eta,Cartagena
+223,2026-03-24,Boligrafos Caja x12,Papeleria,10,17207,172070,Grupo Zeta SAS,Bucaramanga
+241,2026-03-24,Lampara LED Escritorio,Mobiliario,1,95309,95309,Grupo Zeta SAS,Bogota
+53,2026-03-25,Mouse Inalambrico Logitech,Tecnologia,2,80829,161658,Comercial Beta LTDA,Bogota
+15,2026-03-26,Escritorio Madera 120cm,Mobiliario,1,445552,445552,Grupo Zeta SAS,Medellin
+49,2026-03-26,Monitor LG 24'',Tecnologia,5,940858,4704290,Inversiones Delta,Cartagena
+227,2026-03-27,Boligrafos Caja x12,Papeleria,3,17761,53283,Inversiones Delta,Barranquilla
+148,2026-03-28,Laptop Lenovo IdeaPad,Tecnologia,10,2685571,26855710,Soluciones Kappa,Bogota
+72,2026-03-29,Mouse Inalambrico Logitech,Tecnologia,1,88204,88204,Servicios Epsilon,Bogota
+150,2026-03-30,Cuaderno Universitario,Papeleria,1,12499,12499,Tienda Eta,Bucaramanga
+179,2026-03-30,Lampara LED Escritorio,Mobiliario,1,96137,96137,Distribuidora Gamma,Medellin
+128,2026-03-31,Monitor LG 24'',Tecnologia,1,972667,972667,Mayorista Iota,Cartagena
+137,2026-03-31,Cuaderno Universitario,Papeleria,1,12490,12490,Tienda Eta,Cali
+117,2026-04-01,Cuaderno Universitario,Papeleria,4,11957,47828,Servicios Epsilon,Cali
+20,2026-04-02,Lampara LED Escritorio,Mobiliario,1,95915,95915,Negocios Theta,Cartagena
+48,2026-04-02,Boligrafos Caja x12,Papeleria,1,17244,17244,Comercial Beta LTDA,Bucaramanga
+162,2026-04-03,Boligrafos Caja x12,Papeleria,1,17360,17360,Mayorista Iota,Bucaramanga
+238,2026-04-03,Silla Ergonomica Oficina,Mobiliario,1,649088,649088,Empresa Alfa SAS,Bogota
+99,2026-04-04,Boligrafos Caja x12,Papeleria,2,18445,36890,Inversiones Delta,Barranquilla
+249,2026-04-04,Mouse Inalambrico Logitech,Tecnologia,1,81994,81994,Distribuidora Gamma,Bucaramanga
+109,2026-04-05,Silla Ergonomica Oficina,Mobiliario,1,698149,698149,Comercial Beta LTDA,Medellin
+79,2026-04-07,Lampara LED Escritorio,Mobiliario,5,96684,483420,Soluciones Kappa,Cali
+228,2026-04-07,Boligrafos Caja x12,Papeleria,4,18854,75416,Mayorista Iota,Bogota
+83,2026-04-08,Mouse Inalambrico Logitech,Tecnologia,3,83162,249486,Grupo Zeta SAS,Bogota
+216,2026-04-09,Resma Papel Carta,Papeleria,1,24120,24120,Soluciones Kappa,Cartagena
+24,2026-04-10,Teclado Mecanico Redragon,Tecnologia,1,220168,220168,Servicios Epsilon,Bucaramanga
+142,2026-04-10,Monitor LG 24'',Tecnologia,3,990271,2970813,Soluciones Kappa,Bucaramanga
+175,2026-04-12,Mouse Inalambrico Logitech,Tecnologia,1,84438,84438,Comercial Beta LTDA,Barranquilla
+247,2026-04-12,Escritorio Madera 120cm,Mobiliario,1,462560,462560,Comercial Beta LTDA,Cartagena
+92,2026-04-13,Cuaderno Universitario,Papeleria,3,11940,35820,Servicios Epsilon,Cartagena
+143,2026-04-15,Monitor LG 24'',Tecnologia,2,942888,1885776,Distribuidora Gamma,Cali
+106,2026-04-16,Escritorio Madera 120cm,Mobiliario,1,437589,437589,Empresa Alfa SAS,Bogota
+50,2026-04-18,Resma Papel Carta,Papeleria,1,23849,23849,Soluciones Kappa,Cartagena
+102,2026-04-19,Laptop Lenovo IdeaPad,Tecnologia,2,2913940,5827880,Empresa Alfa SAS,Bogota
+124,2026-04-19,Monitor LG 24'',Tecnologia,1,940918,940918,Soluciones Kappa,Cali
+180,2026-04-20,Cuaderno Universitario,Papeleria,2,12165,24330,Empresa Alfa SAS,Barranquilla
+31,2026-04-21,Monitor LG 24'',Tecnologia,1,970230,970230,Grupo Zeta SAS,Barranquilla
+51,2026-04-21,Boligrafos Caja x12,Papeleria,1,17669,17669,Grupo Zeta SAS,Medellin
+172,2026-04-22,Lampara LED Escritorio,Mobiliario,4,96423,385692,Mayorista Iota,Barranquilla
+187,2026-04-23,Monitor LG 24'',Tecnologia,2,962978,1925956,Distribuidora Gamma,Bucaramanga
+12,2026-04-24,Escritorio Madera 120cm,Mobiliario,1,436927,436927,Comercial Beta LTDA,Cartagena
+112,2026-04-25,Monitor LG 24'',Tecnologia,3,912180,2736540,Soluciones Kappa,Bogota
+185,2026-04-25,Lampara LED Escritorio,Mobiliario,2,92857,185714,Empresa Alfa SAS,Cartagena
+62,2026-04-26,Laptop Lenovo IdeaPad,Tecnologia,5,2691324,13456620,Distribuidora Gamma,Cartagena
+140,2026-04-26,Mouse Inalambrico Logitech,Tecnologia,2,82080,164160,Soluciones Kappa,Barranquilla
+152,2026-04-27,Mouse Inalambrico Logitech,Tecnologia,1,88040,88040,Negocios Theta,Cali
+97,2026-04-28,Lampara LED Escritorio,Mobiliario,2,98845,197690,Empresa Alfa SAS,Cartagena
+157,2026-04-28,Teclado Mecanico Redragon,Tecnologia,2,229408,458816,Negocios Theta,Bogota
+184,2026-04-29,Resma Papel Carta,Papeleria,1,24647,24647,Servicios Epsilon,Bogota
+197,2026-04-29,Mouse Inalambrico Logitech,Tecnologia,2,86150,172300,Servicios Epsilon,Bucaramanga
+61,2026-04-30,Silla Ergonomica Oficina,Mobiliario,2,656987,1313974,Tienda Eta,Cartagena
+243,2026-05-01,Escritorio Madera 120cm,Mobiliario,2,453409,906818,Tienda Eta,Cali
+160,2026-05-03,Mouse Inalambrico Logitech,Tecnologia,1,86255,86255,Servicios Epsilon,Cartagena
+23,2026-05-04,Lampara LED Escritorio,Mobiliario,1,91752,91752,Servicios Epsilon,Cartagena
+170,2026-05-04,Mouse Inalambrico Logitech,Tecnologia,2,85220,170440,Distribuidora Gamma,Barranquilla
+82,2026-05-08,Monitor LG 24'',Tecnologia,3,951061,2853183,Distribuidora Gamma,Bucaramanga
+138,2026-05-09,Resma Papel Carta,Papeleria,2,25302,50604,Comercial Beta LTDA,Medellin
+222,2026-05-09,Mouse Inalambrico Logitech,Tecnologia,1,81542,81542,Grupo Zeta SAS,Medellin
+125,2026-05-10,Cuaderno Universitario,Papeleria,1,12064,12064,Mayorista Iota,Cali
+46,2026-05-11,Laptop Lenovo IdeaPad,Tecnologia,2,2822170,5644340,Grupo Zeta SAS,Bogota
+42,2026-05-12,Boligrafos Caja x12,Papeleria,10,18604,186040,Inversiones Delta,Medellin
+87,2026-05-12,Teclado Mecanico Redragon,Tecnologia,1,223433,223433,Comercial Beta LTDA,Barranquilla
+224,2026-05-12,Mouse Inalambrico Logitech,Tecnologia,4,84241,336964,Tienda Eta,Bucaramanga
+90,2026-05-13,Boligrafos Caja x12,Papeleria,2,18878,37756,Negocios Theta,Cartagena
+234,2026-05-13,Mouse Inalambrico Logitech,Tecnologia,1,88258,88258,Soluciones Kappa,Bogota
+104,2026-05-14,Escritorio Madera 120cm,Mobiliario,1,437024,437024,Tienda Eta,Cali
+6,2026-05-15,Lampara LED Escritorio,Mobiliario,1,93482,93482,Grupo Zeta SAS,Bogota
+25,2026-05-15,Boligrafos Caja x12,Papeleria,1,18196,18196,Distribuidora Gamma,Cartagena
+127,2026-05-15,Monitor LG 24'',Tecnologia,3,932477,2797431,Distribuidora Gamma,Medellin
