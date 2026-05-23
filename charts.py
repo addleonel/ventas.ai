@@ -8,10 +8,18 @@ import matplotlib
 
 matplotlib.use("Agg")  # backend sin GUI, necesario para Flask
 
+import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
 import pandas as pd
+from matplotlib.ticker import FuncFormatter
 
+from analysis import MESES_ES
 from config import CHARTS_DIR
+
+
+def _fmt_mes_es(x, _pos):
+    d = mdates.num2date(x)
+    return f"{MESES_ES[d.month]} {d.year}"
 
 PALETA = {
     "ink":     "#1a1a1a",
@@ -81,6 +89,8 @@ def grafico_tendencia_diaria(df_diario: pd.DataFrame) -> str:
     ax.set_title("Tendencia diaria de ingresos · promedio móvil de 7 días")
     ax.set_ylabel("Ingresos (S/)")
     ax.ticklabel_format(style="plain", axis="y")
+    ax.xaxis.set_major_locator(mdates.MonthLocator())
+    ax.xaxis.set_major_formatter(FuncFormatter(_fmt_mes_es))
     leg = ax.legend(frameon=False, loc="upper left", fontsize=9)
     for text in leg.get_texts():
         text.set_color(PALETA["ink"])

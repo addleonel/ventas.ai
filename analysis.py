@@ -8,6 +8,13 @@ COLUMNAS_REQUERIDAS = {
     "fecha", "producto", "categoria", "cantidad", "precio_unitario", "total",
 }
 
+FECHA_FMT = "%d/%m/%Y"  # Día/Mes/Año
+
+MESES_ES = {
+    1: "Ene", 2: "Feb", 3: "Mar", 4: "Abr", 5: "May", 6: "Jun",
+    7: "Jul", 8: "Ago", 9: "Sep", 10: "Oct", 11: "Nov", 12: "Dic",
+}
+
 
 def cargar_csv(ruta) -> pd.DataFrame:
     df = pd.read_csv(ruta)
@@ -16,7 +23,7 @@ def cargar_csv(ruta) -> pd.DataFrame:
         raise ValueError(
             f"El CSV no tiene las columnas requeridas. Faltan: {sorted(faltantes)}"
         )
-    df["fecha"] = pd.to_datetime(df["fecha"], errors="coerce")
+    df["fecha"] = pd.to_datetime(df["fecha"], errors="coerce", dayfirst=True)
     df = df.dropna(subset=["fecha"])
     df["cantidad"] = pd.to_numeric(df["cantidad"], errors="coerce").fillna(0).astype(int)
     df["precio_unitario"] = pd.to_numeric(df["precio_unitario"], errors="coerce").fillna(0.0)
@@ -37,8 +44,8 @@ def metricas_generales(df: pd.DataFrame) -> dict:
         "n_transacciones": n_transacciones,
         "ticket_promedio": ticket_promedio,
         "unidades_vendidas": unidades_vendidas,
-        "fecha_inicio": rango_fechas[0].strftime("%Y-%m-%d"),
-        "fecha_fin": rango_fechas[1].strftime("%Y-%m-%d"),
+        "fecha_inicio": rango_fechas[0].strftime(FECHA_FMT),
+        "fecha_fin": rango_fechas[1].strftime(FECHA_FMT),
     }
 
 
@@ -61,7 +68,9 @@ def ventas_por_mes(df: pd.DataFrame) -> pd.DataFrame:
         .reset_index()
         .rename(columns={"fecha": "mes"})
     )
-    serie["mes_etiqueta"] = serie["mes"].dt.strftime("%Y-%m")
+    serie["mes_etiqueta"] = (
+        serie["mes"].dt.month.map(MESES_ES) + " " + serie["mes"].dt.year.astype(str)
+    )
     return serie
 
 
@@ -111,7 +120,7 @@ def producto_estrella_evolucion(df: pd.DataFrame):
         .sum()
         .reset_index()
     )
-    serie["etiqueta"] = serie["fecha"].dt.strftime("%d-%b")
+    serie["etiqueta"] = serie["fecha"].dt.strftime("%d/%m")
     return {"producto": nombre, "total": float(totales.iloc[0]), "serie": serie}
 
 

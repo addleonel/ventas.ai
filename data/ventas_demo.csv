@@ -1,251 +1,251 @@
 id_venta,fecha,producto,categoria,cantidad,precio_unitario,total,cliente,ciudad
-81,2025-11-01,Lampara LED Escritorio,Mobiliario,2,72.61,145.22,Servicios Surco SAC,Piura
-5,2025-11-02,Monitor LG 24'' Full HD,Tecnologia,1,773.66,773.66,Distribuidora Pacifico SAC,Huancayo
-22,2025-11-03,Silla Ergonomica Oficina,Mobiliario,12,552.56,6630.72,Comercial Inka EIRL,Tacna
-134,2025-11-04,Cuaderno Universitario A4,Papeleria,2,8.47,16.94,Soluciones La Molina,Piura
-171,2025-11-04,Silla Ergonomica Oficina,Mobiliario,5,514.77,2573.85,Distribuidora Pacifico SAC,Huancayo
-244,2025-11-05,Webcam Logitech C270,Tecnologia,1,190.42,190.42,Negocios Lince EIRL,Arequipa
-211,2025-11-07,Resma Papel A4 75gr,Papeleria,3,20.85,62.55,Distribuidora Pacifico SAC,Lima
-108,2025-11-08,Resma Papel A4 75gr,Papeleria,1,23.61,23.61,Inversiones Los Olivos,Cusco
-15,2025-11-09,Resma Papel A4 75gr,Papeleria,1,22.97,22.97,Grupo Miraflores SAC,Huancayo
-203,2025-11-09,Lampara LED Escritorio,Mobiliario,8,73.9,591.2,Grupo Miraflores SAC,Cusco
-69,2025-11-10,Teclado Mecanico Redragon Kumara,Tecnologia,1,188.28,188.28,Negocios Lince EIRL,Cusco
-65,2025-11-11,USB 32GB Kingston DataTraveler,Tecnologia,4,37.23,148.92,Grupo Miraflores SAC,Cusco
-189,2025-11-11,Cuaderno Universitario A4,Papeleria,3,7.48,22.44,Servicios Surco SAC,Iquitos
-177,2025-11-12,Teclado Mecanico Redragon Kumara,Tecnologia,5,185.59,927.95,Grupo Miraflores SAC,Lima
-42,2025-11-13,Resma Papel A4 75gr,Papeleria,2,23.27,46.54,Mayorista Callao,Lima
-207,2025-11-13,Cuaderno Universitario A4,Papeleria,12,8.18,98.16,Grupo Miraflores SAC,Cusco
-60,2025-11-14,Escritorio Madera 120cm,Mobiliario,5,379.3,1896.5,Comercial Inka EIRL,Huancayo
-135,2025-11-14,Silla Ergonomica Oficina,Mobiliario,1,548.13,548.13,Servicios Surco SAC,Iquitos
-236,2025-11-14,Resma Papel A4 75gr,Papeleria,2,23.55,47.1,Distribuidora Pacifico SAC,Trujillo
-39,2025-11-16,Cuaderno Universitario A4,Papeleria,3,8.2,24.6,Tienda San Isidro,Chiclayo
-44,2025-11-16,Silla Ergonomica Oficina,Mobiliario,2,524.81,1049.62,Distribuidora Pacifico SAC,Huancayo
-205,2025-11-16,Escritorio Madera 120cm,Mobiliario,3,404.42,1213.26,Tienda San Isidro,Piura
-35,2025-11-19,Mouse Inalambrico Logitech M170,Tecnologia,5,79.87,399.35,Mayorista Callao,Cusco
-86,2025-11-19,Monitor LG 24'' Full HD,Tecnologia,3,840.4,2521.2,Negocios Lince EIRL,Huancayo
-136,2025-11-19,Mouse Inalambrico Logitech M170,Tecnologia,2,78.87,157.74,Soluciones La Molina,Lima
-28,2025-11-21,Monitor LG 24'' Full HD,Tecnologia,5,724.83,3624.15,Comercial Inka EIRL,Iquitos
-106,2025-11-21,Resma Papel A4 75gr,Papeleria,2,23.59,47.18,Negocios Lince EIRL,Lima
-120,2025-11-23,USB 32GB Kingston DataTraveler,Tecnologia,4,36.97,147.88,Servicios Surco SAC,Iquitos
-149,2025-11-24,Boligrafos Caja x12,Papeleria,1,14.57,14.57,Inversiones Los Olivos,Puno
-190,2025-11-24,Laptop Lenovo IdeaPad 3,Tecnologia,3,2531.83,7595.49,Servicios Surco SAC,Chiclayo
-224,2025-11-25,Mouse Inalambrico Logitech M170,Tecnologia,1,78.98,78.98,Grupo Miraflores SAC,Trujillo
-153,2025-11-27,USB 32GB Kingston DataTraveler,Tecnologia,1,34.49,34.49,Distribuidora Pacifico SAC,Chiclayo
-184,2025-11-28,Monitor LG 24'' Full HD,Tecnologia,5,842.32,4211.6,Inversiones Los Olivos,Huancayo
-228,2025-11-28,Teclado Mecanico Redragon Kumara,Tecnologia,1,184.51,184.51,Grupo Miraflores SAC,Tacna
-247,2025-11-28,Boligrafos Caja x12,Papeleria,1,16.01,16.01,Inversiones Los Olivos,Huancayo
-20,2025-11-29,Silla Ergonomica Oficina,Mobiliario,1,514.0,514.0,Distribuidora Pacifico SAC,Trujillo
-23,2025-11-29,Resma Papel A4 75gr,Papeleria,3,21.18,63.54,Servicios Surco SAC,Huancayo
-27,2025-11-29,Laptop Lenovo IdeaPad 3,Tecnologia,2,2539.58,5079.16,Grupo Miraflores SAC,Piura
-155,2025-11-30,Silla Ergonomica Oficina,Mobiliario,1,513.75,513.75,Tienda San Isidro,Tacna
-50,2025-12-01,Mouse Inalambrico Logitech M170,Tecnologia,1,77.1,77.1,Soluciones La Molina,Cusco
-8,2025-12-02,Resma Papel A4 75gr,Papeleria,2,20.39,40.78,Tienda San Isidro,Arequipa
-29,2025-12-03,Mouse Inalambrico Logitech M170,Tecnologia,2,80.74,161.48,Distribuidora Pacifico SAC,Iquitos
-64,2025-12-03,USB 32GB Kingston DataTraveler,Tecnologia,1,35.46,35.46,Empresa Andes SAC,Piura
-102,2025-12-03,Boligrafos Caja x12,Papeleria,2,14.2,28.4,Soluciones La Molina,Tacna
-36,2025-12-04,Audifonos Bluetooth Sony WH-CH520,Tecnologia,1,328.65,328.65,Soluciones La Molina,Puno
-55,2025-12-04,Mouse Inalambrico Logitech M170,Tecnologia,2,75.45,150.9,Grupo Miraflores SAC,Arequipa
-61,2025-12-04,Audifonos Bluetooth Sony WH-CH520,Tecnologia,1,296.66,296.66,Servicios Surco SAC,Trujillo
-210,2025-12-04,Laptop Lenovo IdeaPad 3,Tecnologia,12,2410.91,28930.92,Mayorista Callao,Piura
-241,2025-12-06,Laptop Lenovo IdeaPad 3,Tecnologia,8,2381.77,19054.16,Servicios Surco SAC,Piura
-85,2025-12-08,Cuaderno Universitario A4,Papeleria,4,7.76,31.04,Empresa Andes SAC,Lima
-63,2025-12-09,Mouse Inalambrico Logitech M170,Tecnologia,3,80.34,241.02,Mayorista Callao,Lima
-145,2025-12-09,Webcam Logitech C270,Tecnologia,1,168.91,168.91,Servicios Surco SAC,Trujillo
-141,2025-12-11,Cuaderno Universitario A4,Papeleria,3,7.63,22.89,Inversiones Los Olivos,Trujillo
-13,2025-12-12,Cuaderno Universitario A4,Papeleria,3,7.58,22.74,Negocios Lince EIRL,Huancayo
-26,2025-12-12,Lampara LED Escritorio,Mobiliario,2,71.39,142.78,Mayorista Callao,Tacna
-67,2025-12-12,Boligrafos Caja x12,Papeleria,5,14.17,70.85,Distribuidora Pacifico SAC,Huancayo
-111,2025-12-12,Lampara LED Escritorio,Mobiliario,3,80.56,241.68,Servicios Surco SAC,Arequipa
-43,2025-12-13,Mouse Inalambrico Logitech M170,Tecnologia,4,80.12,320.48,Tienda San Isidro,Iquitos
-246,2025-12-14,Mouse Inalambrico Logitech M170,Tecnologia,8,73.86,590.88,Soluciones La Molina,Iquitos
-179,2025-12-15,Lampara LED Escritorio,Mobiliario,1,77.18,77.18,Comercial Inka EIRL,Puno
-104,2025-12-17,Cuaderno Universitario A4,Papeleria,5,7.91,39.55,Empresa Andes SAC,Piura
-49,2025-12-18,Teclado Mecanico Redragon Kumara,Tecnologia,2,167.24,334.48,Comercial Inka EIRL,Puno
-40,2025-12-19,Resma Papel A4 75gr,Papeleria,1,23.27,23.27,Mayorista Callao,Iquitos
-75,2025-12-19,Escritorio Madera 120cm,Mobiliario,5,356.63,1783.15,Servicios Surco SAC,Lima
-238,2025-12-26,Silla Ergonomica Oficina,Mobiliario,2,559.42,1118.84,Mayorista Callao,Arequipa
-19,2025-12-27,Webcam Logitech C270,Tecnologia,2,191.46,382.92,Distribuidora Pacifico SAC,Tacna
-160,2025-12-28,Escritorio Madera 120cm,Mobiliario,2,350.43,700.86,Comercial Inka EIRL,Iquitos
-229,2025-12-28,USB 32GB Kingston DataTraveler,Tecnologia,1,32.84,32.84,Tienda San Isidro,Tacna
-221,2025-12-29,Boligrafos Caja x12,Papeleria,2,15.88,31.76,Tienda San Isidro,Chiclayo
-3,2025-12-30,Webcam Logitech C270,Tecnologia,1,166.52,166.52,Mayorista Callao,Puno
-197,2025-12-30,Cuaderno Universitario A4,Papeleria,1,8.56,8.56,Negocios Lince EIRL,Lima
-94,2026-01-01,Resma Papel A4 75gr,Papeleria,2,22.98,45.96,Servicios Surco SAC,Iquitos
-124,2026-01-01,Laptop Lenovo IdeaPad 3,Tecnologia,1,2506.65,2506.65,Tienda San Isidro,Iquitos
-159,2026-01-01,Mouse Inalambrico Logitech M170,Tecnologia,3,69.35,208.05,Distribuidora Pacifico SAC,Piura
-1,2026-01-02,Cuaderno Universitario A4,Papeleria,3,7.5,22.5,Inversiones Los Olivos,Trujillo
-178,2026-01-02,Audifonos Bluetooth Sony WH-CH520,Tecnologia,2,312.75,625.5,Mayorista Callao,Huancayo
-41,2026-01-03,Teclado Mecanico Redragon Kumara,Tecnologia,1,177.75,177.75,Comercial Inka EIRL,Iquitos
-183,2026-01-04,Audifonos Bluetooth Sony WH-CH520,Tecnologia,2,327.11,654.22,Negocios Lince EIRL,Piura
-192,2026-01-05,Escritorio Madera 120cm,Mobiliario,4,405.14,1620.56,Negocios Lince EIRL,Piura
-172,2026-01-07,Cuaderno Universitario A4,Papeleria,1,8.6,8.6,Grupo Miraflores SAC,Puno
-195,2026-01-07,USB 32GB Kingston DataTraveler,Tecnologia,2,32.71,65.42,Mayorista Callao,Arequipa
-196,2026-01-07,Silla Ergonomica Oficina,Mobiliario,3,538.44,1615.32,Soluciones La Molina,Huancayo
-231,2026-01-08,Lampara LED Escritorio,Mobiliario,4,80.15,320.6,Empresa Andes SAC,Trujillo
-118,2026-01-09,Teclado Mecanico Redragon Kumara,Tecnologia,8,186.73,1493.84,Soluciones La Molina,Tacna
-237,2026-01-09,Resma Papel A4 75gr,Papeleria,3,22.41,67.23,Negocios Lince EIRL,Huancayo
-218,2026-01-10,USB 32GB Kingston DataTraveler,Tecnologia,1,35.61,35.61,Soluciones La Molina,Puno
-71,2026-01-11,Laptop Lenovo IdeaPad 3,Tecnologia,2,2564.01,5128.02,Comercial Inka EIRL,Piura
-143,2026-01-12,Audifonos Bluetooth Sony WH-CH520,Tecnologia,1,296.07,296.07,Negocios Lince EIRL,Arequipa
-158,2026-01-13,Monitor LG 24'' Full HD,Tecnologia,1,750.93,750.93,Negocios Lince EIRL,Iquitos
-175,2026-01-13,Lampara LED Escritorio,Mobiliario,3,69.82,209.46,Inversiones Los Olivos,Arequipa
-187,2026-01-13,Boligrafos Caja x12,Papeleria,5,14.99,74.95,Inversiones Los Olivos,Puno
-10,2026-01-14,Boligrafos Caja x12,Papeleria,3,13.97,41.91,Comercial Inka EIRL,Cusco
-79,2026-01-15,Cuaderno Universitario A4,Papeleria,2,7.88,15.76,Mayorista Callao,Trujillo
-53,2026-01-16,Audifonos Bluetooth Sony WH-CH520,Tecnologia,3,314.66,943.98,Negocios Lince EIRL,Chiclayo
-78,2026-01-16,Cuaderno Universitario A4,Papeleria,3,8.45,25.35,Mayorista Callao,Piura
-99,2026-01-16,Webcam Logitech C270,Tecnologia,8,179.34,1434.72,Tienda San Isidro,Huancayo
-165,2026-01-16,Audifonos Bluetooth Sony WH-CH520,Tecnologia,1,336.41,336.41,Soluciones La Molina,Puno
-132,2026-01-17,Monitor LG 24'' Full HD,Tecnologia,2,754.57,1509.14,Empresa Andes SAC,Tacna
-137,2026-01-17,Teclado Mecanico Redragon Kumara,Tecnologia,2,169.9,339.8,Comercial Inka EIRL,Cusco
-199,2026-01-17,Cuaderno Universitario A4,Papeleria,5,8.41,42.05,Tienda San Isidro,Arequipa
-70,2026-01-18,Monitor LG 24'' Full HD,Tecnologia,2,819.51,1639.02,Inversiones Los Olivos,Cusco
-248,2026-01-19,Lampara LED Escritorio,Mobiliario,1,73.81,73.81,Grupo Miraflores SAC,Cusco
-74,2026-01-20,Mouse Inalambrico Logitech M170,Tecnologia,1,76.16,76.16,Tienda San Isidro,Puno
-129,2026-01-20,Audifonos Bluetooth Sony WH-CH520,Tecnologia,3,306.2,918.6,Comercial Inka EIRL,Tacna
-222,2026-01-20,Silla Ergonomica Oficina,Mobiliario,3,541.09,1623.27,Tienda San Isidro,Chiclayo
-91,2026-01-21,Cuaderno Universitario A4,Papeleria,2,8.04,16.08,Negocios Lince EIRL,Puno
-212,2026-01-22,USB 32GB Kingston DataTraveler,Tecnologia,1,36.62,36.62,Empresa Andes SAC,Trujillo
-77,2026-01-24,Webcam Logitech C270,Tecnologia,3,167.62,502.86,Soluciones La Molina,Chiclayo
-173,2026-01-24,Boligrafos Caja x12,Papeleria,1,14.75,14.75,Mayorista Callao,Huancayo
-209,2026-01-24,Lampara LED Escritorio,Mobiliario,5,71.59,357.95,Distribuidora Pacifico SAC,Puno
-84,2026-01-25,Audifonos Bluetooth Sony WH-CH520,Tecnologia,3,320.79,962.37,Comercial Inka EIRL,Cusco
-95,2026-01-25,Mouse Inalambrico Logitech M170,Tecnologia,1,77.56,77.56,Grupo Miraflores SAC,Tacna
-105,2026-01-26,Webcam Logitech C270,Tecnologia,2,175.03,350.06,Tienda San Isidro,Piura
-232,2026-01-26,Audifonos Bluetooth Sony WH-CH520,Tecnologia,1,330.38,330.38,Grupo Miraflores SAC,Lima
-59,2026-01-27,Audifonos Bluetooth Sony WH-CH520,Tecnologia,1,308.83,308.83,Inversiones Los Olivos,Piura
-7,2026-01-28,Mouse Inalambrico Logitech M170,Tecnologia,2,73.56,147.12,Soluciones La Molina,Piura
-107,2026-01-29,Boligrafos Caja x12,Papeleria,12,15.09,181.08,Inversiones Los Olivos,Arequipa
-250,2026-01-29,Escritorio Madera 120cm,Mobiliario,4,361.39,1445.56,Distribuidora Pacifico SAC,Cusco
-9,2026-02-01,Escritorio Madera 120cm,Mobiliario,3,367.43,1102.29,Soluciones La Molina,Cusco
-204,2026-02-01,Silla Ergonomica Oficina,Mobiliario,1,545.13,545.13,Comercial Inka EIRL,Chiclayo
-11,2026-02-02,Mouse Inalambrico Logitech M170,Tecnologia,2,73.56,147.12,Distribuidora Pacifico SAC,Chiclayo
-110,2026-02-03,Monitor LG 24'' Full HD,Tecnologia,1,775.64,775.64,Distribuidora Pacifico SAC,Puno
-235,2026-02-03,Webcam Logitech C270,Tecnologia,1,177.69,177.69,Servicios Surco SAC,Chiclayo
-169,2026-02-06,Boligrafos Caja x12,Papeleria,5,14.94,74.7,Tienda San Isidro,Trujillo
-21,2026-02-07,Resma Papel A4 75gr,Papeleria,2,22.64,45.28,Tienda San Isidro,Puno
-87,2026-02-07,Cuaderno Universitario A4,Papeleria,3,8.1,24.3,Negocios Lince EIRL,Huancayo
-101,2026-02-08,Monitor LG 24'' Full HD,Tecnologia,2,751.66,1503.32,Grupo Miraflores SAC,Huancayo
-240,2026-02-10,Escritorio Madera 120cm,Mobiliario,1,390.16,390.16,Soluciones La Molina,Lima
-154,2026-02-11,Webcam Logitech C270,Tecnologia,1,185.58,185.58,Mayorista Callao,Lima
-233,2026-02-11,Teclado Mecanico Redragon Kumara,Tecnologia,2,190.65,381.3,Comercial Inka EIRL,Trujillo
-126,2026-02-12,Resma Papel A4 75gr,Papeleria,1,20.3,20.3,Inversiones Los Olivos,Piura
-37,2026-02-13,Silla Ergonomica Oficina,Mobiliario,2,527.38,1054.76,Inversiones Los Olivos,Arequipa
-38,2026-02-14,Mouse Inalambrico Logitech M170,Tecnologia,2,76.91,153.82,Negocios Lince EIRL,Lima
-68,2026-02-14,Laptop Lenovo IdeaPad 3,Tecnologia,5,2371.74,11858.7,Inversiones Los Olivos,Piura
-156,2026-02-14,Laptop Lenovo IdeaPad 3,Tecnologia,2,2563.06,5126.12,Empresa Andes SAC,Cusco
-168,2026-02-14,Boligrafos Caja x12,Papeleria,2,14.37,28.74,Empresa Andes SAC,Chiclayo
-164,2026-02-15,Mouse Inalambrico Logitech M170,Tecnologia,4,72.31,289.24,Grupo Miraflores SAC,Tacna
-202,2026-02-15,Webcam Logitech C270,Tecnologia,3,182.52,547.56,Comercial Inka EIRL,Iquitos
-51,2026-02-16,Lampara LED Escritorio,Mobiliario,3,76.13,228.39,Soluciones La Molina,Puno
-116,2026-02-16,Escritorio Madera 120cm,Mobiliario,1,388.97,388.97,Negocios Lince EIRL,Arequipa
-242,2026-02-19,USB 32GB Kingston DataTraveler,Tecnologia,2,32.87,65.74,Distribuidora Pacifico SAC,Trujillo
-139,2026-02-22,Resma Papel A4 75gr,Papeleria,2,22.08,44.16,Servicios Surco SAC,Puno
-182,2026-02-22,Audifonos Bluetooth Sony WH-CH520,Tecnologia,1,329.09,329.09,Grupo Miraflores SAC,Puno
-217,2026-02-22,Cuaderno Universitario A4,Papeleria,3,7.5,22.5,Comercial Inka EIRL,Arequipa
-142,2026-02-24,Escritorio Madera 120cm,Mobiliario,1,354.16,354.16,Soluciones La Molina,Iquitos
-45,2026-02-25,Laptop Lenovo IdeaPad 3,Tecnologia,1,2694.12,2694.12,Servicios Surco SAC,Huancayo
-90,2026-02-25,Escritorio Madera 120cm,Mobiliario,4,364.75,1459.0,Distribuidora Pacifico SAC,Iquitos
-128,2026-02-25,Boligrafos Caja x12,Papeleria,2,15.12,30.24,Servicios Surco SAC,Piura
-167,2026-02-25,USB 32GB Kingston DataTraveler,Tecnologia,2,35.29,70.58,Grupo Miraflores SAC,Cusco
-201,2026-02-25,Monitor LG 24'' Full HD,Tecnologia,1,828.33,828.33,Grupo Miraflores SAC,Tacna
-206,2026-02-25,Monitor LG 24'' Full HD,Tecnologia,8,838.43,6707.44,Comercial Inka EIRL,Cusco
-117,2026-02-26,Webcam Logitech C270,Tecnologia,3,193.27,579.81,Distribuidora Pacifico SAC,Huancayo
-97,2026-02-28,Mouse Inalambrico Logitech M170,Tecnologia,1,73.98,73.98,Tienda San Isidro,Lima
-193,2026-02-28,Boligrafos Caja x12,Papeleria,4,15.89,63.56,Comercial Inka EIRL,Trujillo
-162,2026-03-01,Boligrafos Caja x12,Papeleria,4,14.46,57.84,Inversiones Los Olivos,Iquitos
-83,2026-03-02,Silla Ergonomica Oficina,Mobiliario,1,544.91,544.91,Distribuidora Pacifico SAC,Arequipa
-109,2026-03-02,Laptop Lenovo IdeaPad 3,Tecnologia,1,2548.53,2548.53,Comercial Inka EIRL,Puno
-48,2026-03-03,Boligrafos Caja x12,Papeleria,1,14.55,14.55,Mayorista Callao,Tacna
-216,2026-03-03,Silla Ergonomica Oficina,Mobiliario,1,562.61,562.61,Tienda San Isidro,Huancayo
-122,2026-03-05,Laptop Lenovo IdeaPad 3,Tecnologia,1,2497.72,2497.72,Inversiones Los Olivos,Chiclayo
-174,2026-03-05,USB 32GB Kingston DataTraveler,Tecnologia,5,35.71,178.55,Mayorista Callao,Lima
-152,2026-03-06,Teclado Mecanico Redragon Kumara,Tecnologia,2,194.31,388.62,Comercial Inka EIRL,Iquitos
-200,2026-03-07,Teclado Mecanico Redragon Kumara,Tecnologia,1,166.91,166.91,Comercial Inka EIRL,Arequipa
-32,2026-03-13,Cuaderno Universitario A4,Papeleria,2,8.19,16.38,Negocios Lince EIRL,Arequipa
-89,2026-03-13,Monitor LG 24'' Full HD,Tecnologia,8,739.55,5916.4,Negocios Lince EIRL,Lima
-151,2026-03-13,Laptop Lenovo IdeaPad 3,Tecnologia,1,2605.24,2605.24,Negocios Lince EIRL,Piura
-213,2026-03-15,Audifonos Bluetooth Sony WH-CH520,Tecnologia,3,297.08,891.24,Comercial Inka EIRL,Arequipa
-127,2026-03-16,Cuaderno Universitario A4,Papeleria,2,8.1,16.2,Grupo Miraflores SAC,Huancayo
-18,2026-03-18,Audifonos Bluetooth Sony WH-CH520,Tecnologia,3,301.55,904.65,Servicios Surco SAC,Puno
-72,2026-03-18,USB 32GB Kingston DataTraveler,Tecnologia,2,35.79,71.58,Grupo Miraflores SAC,Lima
-76,2026-03-18,Boligrafos Caja x12,Papeleria,2,14.85,29.7,Inversiones Los Olivos,Chiclayo
-166,2026-03-18,Cuaderno Universitario A4,Papeleria,1,7.99,7.99,Negocios Lince EIRL,Chiclayo
-191,2026-03-19,Boligrafos Caja x12,Papeleria,1,14.8,14.8,Grupo Miraflores SAC,Tacna
-2,2026-03-20,Boligrafos Caja x12,Papeleria,3,14.05,42.15,Comercial Inka EIRL,Puno
-56,2026-03-20,Monitor LG 24'' Full HD,Tecnologia,1,763.72,763.72,Servicios Surco SAC,Puno
-92,2026-03-21,Boligrafos Caja x12,Papeleria,2,15.94,31.88,Negocios Lince EIRL,Trujillo
-57,2026-03-22,Resma Papel A4 75gr,Papeleria,1,22.54,22.54,Servicios Surco SAC,Arequipa
-133,2026-03-22,Teclado Mecanico Redragon Kumara,Tecnologia,12,173.5,2082.0,Servicios Surco SAC,Trujillo
-14,2026-03-23,Audifonos Bluetooth Sony WH-CH520,Tecnologia,3,345.06,1035.18,Inversiones Los Olivos,Chiclayo
-46,2026-03-23,Boligrafos Caja x12,Papeleria,12,16.1,193.2,Negocios Lince EIRL,Trujillo
-62,2026-03-24,Boligrafos Caja x12,Papeleria,3,14.86,44.58,Empresa Andes SAC,Arequipa
-66,2026-03-24,Cuaderno Universitario A4,Papeleria,1,7.68,7.68,Tienda San Isidro,Puno
-225,2026-03-24,Escritorio Madera 120cm,Mobiliario,8,353.25,2826.0,Grupo Miraflores SAC,Arequipa
-243,2026-03-24,Webcam Logitech C270,Tecnologia,1,180.94,180.94,Grupo Miraflores SAC,Arequipa
-16,2026-03-26,Audifonos Bluetooth Sony WH-CH520,Tecnologia,5,297.79,1488.95,Grupo Miraflores SAC,Cusco
-227,2026-03-28,Audifonos Bluetooth Sony WH-CH520,Tecnologia,2,325.14,650.28,Mayorista Callao,Cusco
-47,2026-03-29,Monitor LG 24'' Full HD,Tecnologia,8,754.63,6037.04,Mayorista Callao,Lima
-73,2026-03-29,Mouse Inalambrico Logitech M170,Tecnologia,1,79.52,79.52,Servicios Surco SAC,Lima
-98,2026-03-30,Monitor LG 24'' Full HD,Tecnologia,2,821.54,1643.08,Empresa Andes SAC,Puno
-180,2026-03-30,Webcam Logitech C270,Tecnologia,1,183.45,183.45,Distribuidora Pacifico SAC,Cusco
-33,2026-03-31,Monitor LG 24'' Full HD,Tecnologia,1,745.64,745.64,Mayorista Callao,Cusco
-170,2026-04-01,Silla Ergonomica Oficina,Mobiliario,1,590.9,590.9,Grupo Miraflores SAC,Arequipa
-214,2026-04-01,Silla Ergonomica Oficina,Mobiliario,2,545.45,1090.9,Comercial Inka EIRL,Iquitos
-123,2026-04-02,Resma Papel A4 75gr,Papeleria,1,21.15,21.15,Servicios Surco SAC,Tacna
-131,2026-04-02,Boligrafos Caja x12,Papeleria,4,15.22,60.88,Servicios Surco SAC,Arequipa
-138,2026-04-02,Mouse Inalambrico Logitech M170,Tecnologia,2,75.7,151.4,Soluciones La Molina,Cusco
-146,2026-04-02,Mouse Inalambrico Logitech M170,Tecnologia,4,69.72,278.88,Soluciones La Molina,Piura
-219,2026-04-02,Escritorio Madera 120cm,Mobiliario,2,392.9,785.8,Mayorista Callao,Piura
-114,2026-04-03,Boligrafos Caja x12,Papeleria,5,15.65,78.25,Comercial Inka EIRL,Puno
-148,2026-04-03,Escritorio Madera 120cm,Mobiliario,2,382.43,764.86,Empresa Andes SAC,Huancayo
-163,2026-04-03,Escritorio Madera 120cm,Mobiliario,1,358.39,358.39,Mayorista Callao,Trujillo
-100,2026-04-04,Escritorio Madera 120cm,Mobiliario,2,395.05,790.1,Inversiones Los Olivos,Iquitos
-30,2026-04-05,Escritorio Madera 120cm,Mobiliario,2,359.64,719.28,Tienda San Isidro,Cusco
-140,2026-04-06,Webcam Logitech C270,Tecnologia,3,174.39,523.17,Comercial Inka EIRL,Cusco
-198,2026-04-06,Lampara LED Escritorio,Mobiliario,2,79.61,159.22,Inversiones Los Olivos,Arequipa
-188,2026-04-08,Resma Papel A4 75gr,Papeleria,3,21.48,64.44,Servicios Surco SAC,Trujillo
-54,2026-04-09,Resma Papel A4 75gr,Papeleria,1,23.53,23.53,Soluciones La Molina,Arequipa
-25,2026-04-10,Resma Papel A4 75gr,Papeleria,5,20.87,104.35,Servicios Surco SAC,Tacna
-113,2026-04-10,Boligrafos Caja x12,Papeleria,2,14.28,28.56,Inversiones Los Olivos,Arequipa
-144,2026-04-10,Cuaderno Universitario A4,Papeleria,1,7.66,7.66,Soluciones La Molina,Cusco
-157,2026-04-10,Escritorio Madera 120cm,Mobiliario,4,371.6,1486.4,Negocios Lince EIRL,Lima
-34,2026-04-11,Lampara LED Escritorio,Mobiliario,1,71.64,71.64,Empresa Andes SAC,Cusco
-249,2026-04-12,USB 32GB Kingston DataTraveler,Tecnologia,1,36.56,36.56,Comercial Inka EIRL,Tacna
-17,2026-04-14,Cuaderno Universitario A4,Papeleria,5,8.0,40.0,Negocios Lince EIRL,Trujillo
-230,2026-04-14,Resma Papel A4 75gr,Papeleria,3,23.12,69.36,Mayorista Callao,Lima
-125,2026-04-15,Escritorio Madera 120cm,Mobiliario,3,395.7,1187.1,Negocios Lince EIRL,Iquitos
-82,2026-04-17,Monitor LG 24'' Full HD,Tecnologia,2,771.25,1542.5,Grupo Miraflores SAC,Iquitos
-103,2026-04-19,Laptop Lenovo IdeaPad 3,Tecnologia,2,2662.77,5325.54,Empresa Andes SAC,Arequipa
-115,2026-04-19,Resma Papel A4 75gr,Papeleria,2,20.38,40.76,Grupo Miraflores SAC,Arequipa
-181,2026-04-20,Silla Ergonomica Oficina,Mobiliario,2,562.14,1124.28,Empresa Andes SAC,Iquitos
-52,2026-04-21,Escritorio Madera 120cm,Mobiliario,1,368.84,368.84,Grupo Miraflores SAC,Cusco
-121,2026-04-21,Monitor LG 24'' Full HD,Tecnologia,2,811.26,1622.52,Tienda San Isidro,Chiclayo
-150,2026-04-22,Lampara LED Escritorio,Mobiliario,12,80.41,964.92,Servicios Surco SAC,Puno
-80,2026-04-23,Monitor LG 24'' Full HD,Tecnologia,8,770.07,6160.56,Distribuidora Pacifico SAC,Puno
-112,2026-04-23,Lampara LED Escritorio,Mobiliario,1,69.31,69.31,Tienda San Isidro,Huancayo
-239,2026-04-23,USB 32GB Kingston DataTraveler,Tecnologia,1,34.61,34.61,Soluciones La Molina,Iquitos
-12,2026-04-24,USB 32GB Kingston DataTraveler,Tecnologia,1,33.37,33.37,Comercial Inka EIRL,Puno
-186,2026-04-25,Cuaderno Universitario A4,Papeleria,1,7.87,7.87,Empresa Andes SAC,Puno
-223,2026-04-25,Cuaderno Universitario A4,Papeleria,8,7.69,61.52,Negocios Lince EIRL,Arequipa
-96,2026-04-27,Mouse Inalambrico Logitech M170,Tecnologia,1,70.66,70.66,Distribuidora Pacifico SAC,Cusco
-4,2026-04-29,Laptop Lenovo IdeaPad 3,Tecnologia,3,2524.5,7573.5,Mayorista Callao,Huancayo
-147,2026-04-29,Silla Ergonomica Oficina,Mobiliario,3,516.94,1550.82,Tienda San Isidro,Piura
-185,2026-04-29,Lampara LED Escritorio,Mobiliario,1,73.31,73.31,Servicios Surco SAC,Lima
-220,2026-04-29,Silla Ergonomica Oficina,Mobiliario,2,550.49,1100.98,Comercial Inka EIRL,Tacna
-176,2026-04-30,Webcam Logitech C270,Tecnologia,4,193.78,775.12,Comercial Inka EIRL,Iquitos
-245,2026-05-01,USB 32GB Kingston DataTraveler,Tecnologia,2,35.42,70.84,Tienda San Isidro,Piura
-31,2026-05-02,Escritorio Madera 120cm,Mobiliario,3,395.52,1186.56,Servicios Surco SAC,Huancayo
-161,2026-05-03,Mouse Inalambrico Logitech M170,Tecnologia,1,76.77,76.77,Servicios Surco SAC,Tacna
-24,2026-05-04,Teclado Mecanico Redragon Kumara,Tecnologia,8,178.67,1429.36,Servicios Surco SAC,Tacna
-194,2026-05-05,Resma Papel A4 75gr,Papeleria,5,23.64,118.2,Tienda San Isidro,Tacna
-215,2026-05-06,Escritorio Madera 120cm,Mobiliario,3,363.07,1089.21,Mayorista Callao,Piura
-119,2026-05-07,Resma Papel A4 75gr,Papeleria,2,21.94,43.88,Soluciones La Molina,Piura
-130,2026-05-09,Resma Papel A4 75gr,Papeleria,1,22.67,22.67,Negocios Lince EIRL,Piura
-58,2026-05-10,Teclado Mecanico Redragon Kumara,Tecnologia,5,173.22,866.1,Mayorista Callao,Trujillo
-234,2026-05-11,Boligrafos Caja x12,Papeleria,1,15.32,15.32,Mayorista Callao,Cusco
-88,2026-05-12,Monitor LG 24'' Full HD,Tecnologia,3,736.02,2208.06,Comercial Inka EIRL,Huancayo
-93,2026-05-12,Boligrafos Caja x12,Papeleria,2,15.87,31.74,Inversiones Los Olivos,Piura
-226,2026-05-12,Webcam Logitech C270,Tecnologia,3,175.78,527.34,Tienda San Isidro,Lima
-6,2026-05-15,USB 32GB Kingston DataTraveler,Tecnologia,1,33.76,33.76,Grupo Miraflores SAC,Arequipa
-208,2026-05-15,Teclado Mecanico Redragon Kumara,Tecnologia,1,188.26,188.26,Mayorista Callao,Cusco
+81,01/11/2025,Lampara LED Escritorio,Mobiliario,2,72.61,145.22,Servicios Surco SAC,Piura
+5,02/11/2025,Monitor LG 24'' Full HD,Tecnologia,1,773.66,773.66,Distribuidora Pacifico SAC,Huancayo
+22,03/11/2025,Silla Ergonomica Oficina,Mobiliario,12,552.56,6630.72,Comercial Inka EIRL,Tacna
+134,04/11/2025,Cuaderno Universitario A4,Papeleria,2,8.47,16.94,Soluciones La Molina,Piura
+171,04/11/2025,Silla Ergonomica Oficina,Mobiliario,5,514.77,2573.85,Distribuidora Pacifico SAC,Huancayo
+244,05/11/2025,Webcam Logitech C270,Tecnologia,1,190.42,190.42,Negocios Lince EIRL,Arequipa
+211,07/11/2025,Resma Papel A4 75gr,Papeleria,3,20.85,62.55,Distribuidora Pacifico SAC,Lima
+108,08/11/2025,Resma Papel A4 75gr,Papeleria,1,23.61,23.61,Inversiones Los Olivos,Cusco
+15,09/11/2025,Resma Papel A4 75gr,Papeleria,1,22.97,22.97,Grupo Miraflores SAC,Huancayo
+203,09/11/2025,Lampara LED Escritorio,Mobiliario,8,73.9,591.2,Grupo Miraflores SAC,Cusco
+69,10/11/2025,Teclado Mecanico Redragon Kumara,Tecnologia,1,188.28,188.28,Negocios Lince EIRL,Cusco
+65,11/11/2025,USB 32GB Kingston DataTraveler,Tecnologia,4,37.23,148.92,Grupo Miraflores SAC,Cusco
+189,11/11/2025,Cuaderno Universitario A4,Papeleria,3,7.48,22.44,Servicios Surco SAC,Iquitos
+177,12/11/2025,Teclado Mecanico Redragon Kumara,Tecnologia,5,185.59,927.95,Grupo Miraflores SAC,Lima
+42,13/11/2025,Resma Papel A4 75gr,Papeleria,2,23.27,46.54,Mayorista Callao,Lima
+207,13/11/2025,Cuaderno Universitario A4,Papeleria,12,8.18,98.16,Grupo Miraflores SAC,Cusco
+60,14/11/2025,Escritorio Madera 120cm,Mobiliario,5,379.3,1896.5,Comercial Inka EIRL,Huancayo
+135,14/11/2025,Silla Ergonomica Oficina,Mobiliario,1,548.13,548.13,Servicios Surco SAC,Iquitos
+236,14/11/2025,Resma Papel A4 75gr,Papeleria,2,23.55,47.1,Distribuidora Pacifico SAC,Trujillo
+39,16/11/2025,Cuaderno Universitario A4,Papeleria,3,8.2,24.6,Tienda San Isidro,Chiclayo
+44,16/11/2025,Silla Ergonomica Oficina,Mobiliario,2,524.81,1049.62,Distribuidora Pacifico SAC,Huancayo
+205,16/11/2025,Escritorio Madera 120cm,Mobiliario,3,404.42,1213.26,Tienda San Isidro,Piura
+35,19/11/2025,Mouse Inalambrico Logitech M170,Tecnologia,5,79.87,399.35,Mayorista Callao,Cusco
+86,19/11/2025,Monitor LG 24'' Full HD,Tecnologia,3,840.4,2521.2,Negocios Lince EIRL,Huancayo
+136,19/11/2025,Mouse Inalambrico Logitech M170,Tecnologia,2,78.87,157.74,Soluciones La Molina,Lima
+28,21/11/2025,Monitor LG 24'' Full HD,Tecnologia,5,724.83,3624.15,Comercial Inka EIRL,Iquitos
+106,21/11/2025,Resma Papel A4 75gr,Papeleria,2,23.59,47.18,Negocios Lince EIRL,Lima
+120,23/11/2025,USB 32GB Kingston DataTraveler,Tecnologia,4,36.97,147.88,Servicios Surco SAC,Iquitos
+149,24/11/2025,Boligrafos Caja x12,Papeleria,1,14.57,14.57,Inversiones Los Olivos,Puno
+190,24/11/2025,Laptop Lenovo IdeaPad 3,Tecnologia,3,2531.83,7595.49,Servicios Surco SAC,Chiclayo
+224,25/11/2025,Mouse Inalambrico Logitech M170,Tecnologia,1,78.98,78.98,Grupo Miraflores SAC,Trujillo
+153,27/11/2025,USB 32GB Kingston DataTraveler,Tecnologia,1,34.49,34.49,Distribuidora Pacifico SAC,Chiclayo
+184,28/11/2025,Monitor LG 24'' Full HD,Tecnologia,5,842.32,4211.6,Inversiones Los Olivos,Huancayo
+228,28/11/2025,Teclado Mecanico Redragon Kumara,Tecnologia,1,184.51,184.51,Grupo Miraflores SAC,Tacna
+247,28/11/2025,Boligrafos Caja x12,Papeleria,1,16.01,16.01,Inversiones Los Olivos,Huancayo
+20,29/11/2025,Silla Ergonomica Oficina,Mobiliario,1,514.0,514.0,Distribuidora Pacifico SAC,Trujillo
+23,29/11/2025,Resma Papel A4 75gr,Papeleria,3,21.18,63.54,Servicios Surco SAC,Huancayo
+27,29/11/2025,Laptop Lenovo IdeaPad 3,Tecnologia,2,2539.58,5079.16,Grupo Miraflores SAC,Piura
+155,30/11/2025,Silla Ergonomica Oficina,Mobiliario,1,513.75,513.75,Tienda San Isidro,Tacna
+50,01/12/2025,Mouse Inalambrico Logitech M170,Tecnologia,1,77.1,77.1,Soluciones La Molina,Cusco
+8,02/12/2025,Resma Papel A4 75gr,Papeleria,2,20.39,40.78,Tienda San Isidro,Arequipa
+29,03/12/2025,Mouse Inalambrico Logitech M170,Tecnologia,2,80.74,161.48,Distribuidora Pacifico SAC,Iquitos
+64,03/12/2025,USB 32GB Kingston DataTraveler,Tecnologia,1,35.46,35.46,Empresa Andes SAC,Piura
+102,03/12/2025,Boligrafos Caja x12,Papeleria,2,14.2,28.4,Soluciones La Molina,Tacna
+36,04/12/2025,Audifonos Bluetooth Sony WH-CH520,Tecnologia,1,328.65,328.65,Soluciones La Molina,Puno
+55,04/12/2025,Mouse Inalambrico Logitech M170,Tecnologia,2,75.45,150.9,Grupo Miraflores SAC,Arequipa
+61,04/12/2025,Audifonos Bluetooth Sony WH-CH520,Tecnologia,1,296.66,296.66,Servicios Surco SAC,Trujillo
+210,04/12/2025,Laptop Lenovo IdeaPad 3,Tecnologia,12,2410.91,28930.92,Mayorista Callao,Piura
+241,06/12/2025,Laptop Lenovo IdeaPad 3,Tecnologia,8,2381.77,19054.16,Servicios Surco SAC,Piura
+85,08/12/2025,Cuaderno Universitario A4,Papeleria,4,7.76,31.04,Empresa Andes SAC,Lima
+63,09/12/2025,Mouse Inalambrico Logitech M170,Tecnologia,3,80.34,241.02,Mayorista Callao,Lima
+145,09/12/2025,Webcam Logitech C270,Tecnologia,1,168.91,168.91,Servicios Surco SAC,Trujillo
+141,11/12/2025,Cuaderno Universitario A4,Papeleria,3,7.63,22.89,Inversiones Los Olivos,Trujillo
+13,12/12/2025,Cuaderno Universitario A4,Papeleria,3,7.58,22.74,Negocios Lince EIRL,Huancayo
+26,12/12/2025,Lampara LED Escritorio,Mobiliario,2,71.39,142.78,Mayorista Callao,Tacna
+67,12/12/2025,Boligrafos Caja x12,Papeleria,5,14.17,70.85,Distribuidora Pacifico SAC,Huancayo
+111,12/12/2025,Lampara LED Escritorio,Mobiliario,3,80.56,241.68,Servicios Surco SAC,Arequipa
+43,13/12/2025,Mouse Inalambrico Logitech M170,Tecnologia,4,80.12,320.48,Tienda San Isidro,Iquitos
+246,14/12/2025,Mouse Inalambrico Logitech M170,Tecnologia,8,73.86,590.88,Soluciones La Molina,Iquitos
+179,15/12/2025,Lampara LED Escritorio,Mobiliario,1,77.18,77.18,Comercial Inka EIRL,Puno
+104,17/12/2025,Cuaderno Universitario A4,Papeleria,5,7.91,39.55,Empresa Andes SAC,Piura
+49,18/12/2025,Teclado Mecanico Redragon Kumara,Tecnologia,2,167.24,334.48,Comercial Inka EIRL,Puno
+40,19/12/2025,Resma Papel A4 75gr,Papeleria,1,23.27,23.27,Mayorista Callao,Iquitos
+75,19/12/2025,Escritorio Madera 120cm,Mobiliario,5,356.63,1783.15,Servicios Surco SAC,Lima
+238,26/12/2025,Silla Ergonomica Oficina,Mobiliario,2,559.42,1118.84,Mayorista Callao,Arequipa
+19,27/12/2025,Webcam Logitech C270,Tecnologia,2,191.46,382.92,Distribuidora Pacifico SAC,Tacna
+160,28/12/2025,Escritorio Madera 120cm,Mobiliario,2,350.43,700.86,Comercial Inka EIRL,Iquitos
+229,28/12/2025,USB 32GB Kingston DataTraveler,Tecnologia,1,32.84,32.84,Tienda San Isidro,Tacna
+221,29/12/2025,Boligrafos Caja x12,Papeleria,2,15.88,31.76,Tienda San Isidro,Chiclayo
+3,30/12/2025,Webcam Logitech C270,Tecnologia,1,166.52,166.52,Mayorista Callao,Puno
+197,30/12/2025,Cuaderno Universitario A4,Papeleria,1,8.56,8.56,Negocios Lince EIRL,Lima
+94,01/01/2026,Resma Papel A4 75gr,Papeleria,2,22.98,45.96,Servicios Surco SAC,Iquitos
+124,01/01/2026,Laptop Lenovo IdeaPad 3,Tecnologia,1,2506.65,2506.65,Tienda San Isidro,Iquitos
+159,01/01/2026,Mouse Inalambrico Logitech M170,Tecnologia,3,69.35,208.05,Distribuidora Pacifico SAC,Piura
+1,02/01/2026,Cuaderno Universitario A4,Papeleria,3,7.5,22.5,Inversiones Los Olivos,Trujillo
+178,02/01/2026,Audifonos Bluetooth Sony WH-CH520,Tecnologia,2,312.75,625.5,Mayorista Callao,Huancayo
+41,03/01/2026,Teclado Mecanico Redragon Kumara,Tecnologia,1,177.75,177.75,Comercial Inka EIRL,Iquitos
+183,04/01/2026,Audifonos Bluetooth Sony WH-CH520,Tecnologia,2,327.11,654.22,Negocios Lince EIRL,Piura
+192,05/01/2026,Escritorio Madera 120cm,Mobiliario,4,405.14,1620.56,Negocios Lince EIRL,Piura
+172,07/01/2026,Cuaderno Universitario A4,Papeleria,1,8.6,8.6,Grupo Miraflores SAC,Puno
+195,07/01/2026,USB 32GB Kingston DataTraveler,Tecnologia,2,32.71,65.42,Mayorista Callao,Arequipa
+196,07/01/2026,Silla Ergonomica Oficina,Mobiliario,3,538.44,1615.32,Soluciones La Molina,Huancayo
+231,08/01/2026,Lampara LED Escritorio,Mobiliario,4,80.15,320.6,Empresa Andes SAC,Trujillo
+118,09/01/2026,Teclado Mecanico Redragon Kumara,Tecnologia,8,186.73,1493.84,Soluciones La Molina,Tacna
+237,09/01/2026,Resma Papel A4 75gr,Papeleria,3,22.41,67.23,Negocios Lince EIRL,Huancayo
+218,10/01/2026,USB 32GB Kingston DataTraveler,Tecnologia,1,35.61,35.61,Soluciones La Molina,Puno
+71,11/01/2026,Laptop Lenovo IdeaPad 3,Tecnologia,2,2564.01,5128.02,Comercial Inka EIRL,Piura
+143,12/01/2026,Audifonos Bluetooth Sony WH-CH520,Tecnologia,1,296.07,296.07,Negocios Lince EIRL,Arequipa
+158,13/01/2026,Monitor LG 24'' Full HD,Tecnologia,1,750.93,750.93,Negocios Lince EIRL,Iquitos
+175,13/01/2026,Lampara LED Escritorio,Mobiliario,3,69.82,209.46,Inversiones Los Olivos,Arequipa
+187,13/01/2026,Boligrafos Caja x12,Papeleria,5,14.99,74.95,Inversiones Los Olivos,Puno
+10,14/01/2026,Boligrafos Caja x12,Papeleria,3,13.97,41.91,Comercial Inka EIRL,Cusco
+79,15/01/2026,Cuaderno Universitario A4,Papeleria,2,7.88,15.76,Mayorista Callao,Trujillo
+53,16/01/2026,Audifonos Bluetooth Sony WH-CH520,Tecnologia,3,314.66,943.98,Negocios Lince EIRL,Chiclayo
+78,16/01/2026,Cuaderno Universitario A4,Papeleria,3,8.45,25.35,Mayorista Callao,Piura
+99,16/01/2026,Webcam Logitech C270,Tecnologia,8,179.34,1434.72,Tienda San Isidro,Huancayo
+165,16/01/2026,Audifonos Bluetooth Sony WH-CH520,Tecnologia,1,336.41,336.41,Soluciones La Molina,Puno
+132,17/01/2026,Monitor LG 24'' Full HD,Tecnologia,2,754.57,1509.14,Empresa Andes SAC,Tacna
+137,17/01/2026,Teclado Mecanico Redragon Kumara,Tecnologia,2,169.9,339.8,Comercial Inka EIRL,Cusco
+199,17/01/2026,Cuaderno Universitario A4,Papeleria,5,8.41,42.05,Tienda San Isidro,Arequipa
+70,18/01/2026,Monitor LG 24'' Full HD,Tecnologia,2,819.51,1639.02,Inversiones Los Olivos,Cusco
+248,19/01/2026,Lampara LED Escritorio,Mobiliario,1,73.81,73.81,Grupo Miraflores SAC,Cusco
+74,20/01/2026,Mouse Inalambrico Logitech M170,Tecnologia,1,76.16,76.16,Tienda San Isidro,Puno
+129,20/01/2026,Audifonos Bluetooth Sony WH-CH520,Tecnologia,3,306.2,918.6,Comercial Inka EIRL,Tacna
+222,20/01/2026,Silla Ergonomica Oficina,Mobiliario,3,541.09,1623.27,Tienda San Isidro,Chiclayo
+91,21/01/2026,Cuaderno Universitario A4,Papeleria,2,8.04,16.08,Negocios Lince EIRL,Puno
+212,22/01/2026,USB 32GB Kingston DataTraveler,Tecnologia,1,36.62,36.62,Empresa Andes SAC,Trujillo
+77,24/01/2026,Webcam Logitech C270,Tecnologia,3,167.62,502.86,Soluciones La Molina,Chiclayo
+173,24/01/2026,Boligrafos Caja x12,Papeleria,1,14.75,14.75,Mayorista Callao,Huancayo
+209,24/01/2026,Lampara LED Escritorio,Mobiliario,5,71.59,357.95,Distribuidora Pacifico SAC,Puno
+84,25/01/2026,Audifonos Bluetooth Sony WH-CH520,Tecnologia,3,320.79,962.37,Comercial Inka EIRL,Cusco
+95,25/01/2026,Mouse Inalambrico Logitech M170,Tecnologia,1,77.56,77.56,Grupo Miraflores SAC,Tacna
+105,26/01/2026,Webcam Logitech C270,Tecnologia,2,175.03,350.06,Tienda San Isidro,Piura
+232,26/01/2026,Audifonos Bluetooth Sony WH-CH520,Tecnologia,1,330.38,330.38,Grupo Miraflores SAC,Lima
+59,27/01/2026,Audifonos Bluetooth Sony WH-CH520,Tecnologia,1,308.83,308.83,Inversiones Los Olivos,Piura
+7,28/01/2026,Mouse Inalambrico Logitech M170,Tecnologia,2,73.56,147.12,Soluciones La Molina,Piura
+107,29/01/2026,Boligrafos Caja x12,Papeleria,12,15.09,181.08,Inversiones Los Olivos,Arequipa
+250,29/01/2026,Escritorio Madera 120cm,Mobiliario,4,361.39,1445.56,Distribuidora Pacifico SAC,Cusco
+9,01/02/2026,Escritorio Madera 120cm,Mobiliario,3,367.43,1102.29,Soluciones La Molina,Cusco
+204,01/02/2026,Silla Ergonomica Oficina,Mobiliario,1,545.13,545.13,Comercial Inka EIRL,Chiclayo
+11,02/02/2026,Mouse Inalambrico Logitech M170,Tecnologia,2,73.56,147.12,Distribuidora Pacifico SAC,Chiclayo
+110,03/02/2026,Monitor LG 24'' Full HD,Tecnologia,1,775.64,775.64,Distribuidora Pacifico SAC,Puno
+235,03/02/2026,Webcam Logitech C270,Tecnologia,1,177.69,177.69,Servicios Surco SAC,Chiclayo
+169,06/02/2026,Boligrafos Caja x12,Papeleria,5,14.94,74.7,Tienda San Isidro,Trujillo
+21,07/02/2026,Resma Papel A4 75gr,Papeleria,2,22.64,45.28,Tienda San Isidro,Puno
+87,07/02/2026,Cuaderno Universitario A4,Papeleria,3,8.1,24.3,Negocios Lince EIRL,Huancayo
+101,08/02/2026,Monitor LG 24'' Full HD,Tecnologia,2,751.66,1503.32,Grupo Miraflores SAC,Huancayo
+240,10/02/2026,Escritorio Madera 120cm,Mobiliario,1,390.16,390.16,Soluciones La Molina,Lima
+154,11/02/2026,Webcam Logitech C270,Tecnologia,1,185.58,185.58,Mayorista Callao,Lima
+233,11/02/2026,Teclado Mecanico Redragon Kumara,Tecnologia,2,190.65,381.3,Comercial Inka EIRL,Trujillo
+126,12/02/2026,Resma Papel A4 75gr,Papeleria,1,20.3,20.3,Inversiones Los Olivos,Piura
+37,13/02/2026,Silla Ergonomica Oficina,Mobiliario,2,527.38,1054.76,Inversiones Los Olivos,Arequipa
+38,14/02/2026,Mouse Inalambrico Logitech M170,Tecnologia,2,76.91,153.82,Negocios Lince EIRL,Lima
+68,14/02/2026,Laptop Lenovo IdeaPad 3,Tecnologia,5,2371.74,11858.7,Inversiones Los Olivos,Piura
+156,14/02/2026,Laptop Lenovo IdeaPad 3,Tecnologia,2,2563.06,5126.12,Empresa Andes SAC,Cusco
+168,14/02/2026,Boligrafos Caja x12,Papeleria,2,14.37,28.74,Empresa Andes SAC,Chiclayo
+164,15/02/2026,Mouse Inalambrico Logitech M170,Tecnologia,4,72.31,289.24,Grupo Miraflores SAC,Tacna
+202,15/02/2026,Webcam Logitech C270,Tecnologia,3,182.52,547.56,Comercial Inka EIRL,Iquitos
+51,16/02/2026,Lampara LED Escritorio,Mobiliario,3,76.13,228.39,Soluciones La Molina,Puno
+116,16/02/2026,Escritorio Madera 120cm,Mobiliario,1,388.97,388.97,Negocios Lince EIRL,Arequipa
+242,19/02/2026,USB 32GB Kingston DataTraveler,Tecnologia,2,32.87,65.74,Distribuidora Pacifico SAC,Trujillo
+139,22/02/2026,Resma Papel A4 75gr,Papeleria,2,22.08,44.16,Servicios Surco SAC,Puno
+182,22/02/2026,Audifonos Bluetooth Sony WH-CH520,Tecnologia,1,329.09,329.09,Grupo Miraflores SAC,Puno
+217,22/02/2026,Cuaderno Universitario A4,Papeleria,3,7.5,22.5,Comercial Inka EIRL,Arequipa
+142,24/02/2026,Escritorio Madera 120cm,Mobiliario,1,354.16,354.16,Soluciones La Molina,Iquitos
+45,25/02/2026,Laptop Lenovo IdeaPad 3,Tecnologia,1,2694.12,2694.12,Servicios Surco SAC,Huancayo
+90,25/02/2026,Escritorio Madera 120cm,Mobiliario,4,364.75,1459.0,Distribuidora Pacifico SAC,Iquitos
+128,25/02/2026,Boligrafos Caja x12,Papeleria,2,15.12,30.24,Servicios Surco SAC,Piura
+167,25/02/2026,USB 32GB Kingston DataTraveler,Tecnologia,2,35.29,70.58,Grupo Miraflores SAC,Cusco
+201,25/02/2026,Monitor LG 24'' Full HD,Tecnologia,1,828.33,828.33,Grupo Miraflores SAC,Tacna
+206,25/02/2026,Monitor LG 24'' Full HD,Tecnologia,8,838.43,6707.44,Comercial Inka EIRL,Cusco
+117,26/02/2026,Webcam Logitech C270,Tecnologia,3,193.27,579.81,Distribuidora Pacifico SAC,Huancayo
+97,28/02/2026,Mouse Inalambrico Logitech M170,Tecnologia,1,73.98,73.98,Tienda San Isidro,Lima
+193,28/02/2026,Boligrafos Caja x12,Papeleria,4,15.89,63.56,Comercial Inka EIRL,Trujillo
+162,01/03/2026,Boligrafos Caja x12,Papeleria,4,14.46,57.84,Inversiones Los Olivos,Iquitos
+83,02/03/2026,Silla Ergonomica Oficina,Mobiliario,1,544.91,544.91,Distribuidora Pacifico SAC,Arequipa
+109,02/03/2026,Laptop Lenovo IdeaPad 3,Tecnologia,1,2548.53,2548.53,Comercial Inka EIRL,Puno
+48,03/03/2026,Boligrafos Caja x12,Papeleria,1,14.55,14.55,Mayorista Callao,Tacna
+216,03/03/2026,Silla Ergonomica Oficina,Mobiliario,1,562.61,562.61,Tienda San Isidro,Huancayo
+122,05/03/2026,Laptop Lenovo IdeaPad 3,Tecnologia,1,2497.72,2497.72,Inversiones Los Olivos,Chiclayo
+174,05/03/2026,USB 32GB Kingston DataTraveler,Tecnologia,5,35.71,178.55,Mayorista Callao,Lima
+152,06/03/2026,Teclado Mecanico Redragon Kumara,Tecnologia,2,194.31,388.62,Comercial Inka EIRL,Iquitos
+200,07/03/2026,Teclado Mecanico Redragon Kumara,Tecnologia,1,166.91,166.91,Comercial Inka EIRL,Arequipa
+32,13/03/2026,Cuaderno Universitario A4,Papeleria,2,8.19,16.38,Negocios Lince EIRL,Arequipa
+89,13/03/2026,Monitor LG 24'' Full HD,Tecnologia,8,739.55,5916.4,Negocios Lince EIRL,Lima
+151,13/03/2026,Laptop Lenovo IdeaPad 3,Tecnologia,1,2605.24,2605.24,Negocios Lince EIRL,Piura
+213,15/03/2026,Audifonos Bluetooth Sony WH-CH520,Tecnologia,3,297.08,891.24,Comercial Inka EIRL,Arequipa
+127,16/03/2026,Cuaderno Universitario A4,Papeleria,2,8.1,16.2,Grupo Miraflores SAC,Huancayo
+18,18/03/2026,Audifonos Bluetooth Sony WH-CH520,Tecnologia,3,301.55,904.65,Servicios Surco SAC,Puno
+72,18/03/2026,USB 32GB Kingston DataTraveler,Tecnologia,2,35.79,71.58,Grupo Miraflores SAC,Lima
+76,18/03/2026,Boligrafos Caja x12,Papeleria,2,14.85,29.7,Inversiones Los Olivos,Chiclayo
+166,18/03/2026,Cuaderno Universitario A4,Papeleria,1,7.99,7.99,Negocios Lince EIRL,Chiclayo
+191,19/03/2026,Boligrafos Caja x12,Papeleria,1,14.8,14.8,Grupo Miraflores SAC,Tacna
+2,20/03/2026,Boligrafos Caja x12,Papeleria,3,14.05,42.15,Comercial Inka EIRL,Puno
+56,20/03/2026,Monitor LG 24'' Full HD,Tecnologia,1,763.72,763.72,Servicios Surco SAC,Puno
+92,21/03/2026,Boligrafos Caja x12,Papeleria,2,15.94,31.88,Negocios Lince EIRL,Trujillo
+57,22/03/2026,Resma Papel A4 75gr,Papeleria,1,22.54,22.54,Servicios Surco SAC,Arequipa
+133,22/03/2026,Teclado Mecanico Redragon Kumara,Tecnologia,12,173.5,2082.0,Servicios Surco SAC,Trujillo
+14,23/03/2026,Audifonos Bluetooth Sony WH-CH520,Tecnologia,3,345.06,1035.18,Inversiones Los Olivos,Chiclayo
+46,23/03/2026,Boligrafos Caja x12,Papeleria,12,16.1,193.2,Negocios Lince EIRL,Trujillo
+62,24/03/2026,Boligrafos Caja x12,Papeleria,3,14.86,44.58,Empresa Andes SAC,Arequipa
+66,24/03/2026,Cuaderno Universitario A4,Papeleria,1,7.68,7.68,Tienda San Isidro,Puno
+225,24/03/2026,Escritorio Madera 120cm,Mobiliario,8,353.25,2826.0,Grupo Miraflores SAC,Arequipa
+243,24/03/2026,Webcam Logitech C270,Tecnologia,1,180.94,180.94,Grupo Miraflores SAC,Arequipa
+16,26/03/2026,Audifonos Bluetooth Sony WH-CH520,Tecnologia,5,297.79,1488.95,Grupo Miraflores SAC,Cusco
+227,28/03/2026,Audifonos Bluetooth Sony WH-CH520,Tecnologia,2,325.14,650.28,Mayorista Callao,Cusco
+47,29/03/2026,Monitor LG 24'' Full HD,Tecnologia,8,754.63,6037.04,Mayorista Callao,Lima
+73,29/03/2026,Mouse Inalambrico Logitech M170,Tecnologia,1,79.52,79.52,Servicios Surco SAC,Lima
+98,30/03/2026,Monitor LG 24'' Full HD,Tecnologia,2,821.54,1643.08,Empresa Andes SAC,Puno
+180,30/03/2026,Webcam Logitech C270,Tecnologia,1,183.45,183.45,Distribuidora Pacifico SAC,Cusco
+33,31/03/2026,Monitor LG 24'' Full HD,Tecnologia,1,745.64,745.64,Mayorista Callao,Cusco
+170,01/04/2026,Silla Ergonomica Oficina,Mobiliario,1,590.9,590.9,Grupo Miraflores SAC,Arequipa
+214,01/04/2026,Silla Ergonomica Oficina,Mobiliario,2,545.45,1090.9,Comercial Inka EIRL,Iquitos
+123,02/04/2026,Resma Papel A4 75gr,Papeleria,1,21.15,21.15,Servicios Surco SAC,Tacna
+131,02/04/2026,Boligrafos Caja x12,Papeleria,4,15.22,60.88,Servicios Surco SAC,Arequipa
+138,02/04/2026,Mouse Inalambrico Logitech M170,Tecnologia,2,75.7,151.4,Soluciones La Molina,Cusco
+146,02/04/2026,Mouse Inalambrico Logitech M170,Tecnologia,4,69.72,278.88,Soluciones La Molina,Piura
+219,02/04/2026,Escritorio Madera 120cm,Mobiliario,2,392.9,785.8,Mayorista Callao,Piura
+114,03/04/2026,Boligrafos Caja x12,Papeleria,5,15.65,78.25,Comercial Inka EIRL,Puno
+148,03/04/2026,Escritorio Madera 120cm,Mobiliario,2,382.43,764.86,Empresa Andes SAC,Huancayo
+163,03/04/2026,Escritorio Madera 120cm,Mobiliario,1,358.39,358.39,Mayorista Callao,Trujillo
+100,04/04/2026,Escritorio Madera 120cm,Mobiliario,2,395.05,790.1,Inversiones Los Olivos,Iquitos
+30,05/04/2026,Escritorio Madera 120cm,Mobiliario,2,359.64,719.28,Tienda San Isidro,Cusco
+140,06/04/2026,Webcam Logitech C270,Tecnologia,3,174.39,523.17,Comercial Inka EIRL,Cusco
+198,06/04/2026,Lampara LED Escritorio,Mobiliario,2,79.61,159.22,Inversiones Los Olivos,Arequipa
+188,08/04/2026,Resma Papel A4 75gr,Papeleria,3,21.48,64.44,Servicios Surco SAC,Trujillo
+54,09/04/2026,Resma Papel A4 75gr,Papeleria,1,23.53,23.53,Soluciones La Molina,Arequipa
+25,10/04/2026,Resma Papel A4 75gr,Papeleria,5,20.87,104.35,Servicios Surco SAC,Tacna
+113,10/04/2026,Boligrafos Caja x12,Papeleria,2,14.28,28.56,Inversiones Los Olivos,Arequipa
+144,10/04/2026,Cuaderno Universitario A4,Papeleria,1,7.66,7.66,Soluciones La Molina,Cusco
+157,10/04/2026,Escritorio Madera 120cm,Mobiliario,4,371.6,1486.4,Negocios Lince EIRL,Lima
+34,11/04/2026,Lampara LED Escritorio,Mobiliario,1,71.64,71.64,Empresa Andes SAC,Cusco
+249,12/04/2026,USB 32GB Kingston DataTraveler,Tecnologia,1,36.56,36.56,Comercial Inka EIRL,Tacna
+17,14/04/2026,Cuaderno Universitario A4,Papeleria,5,8.0,40.0,Negocios Lince EIRL,Trujillo
+230,14/04/2026,Resma Papel A4 75gr,Papeleria,3,23.12,69.36,Mayorista Callao,Lima
+125,15/04/2026,Escritorio Madera 120cm,Mobiliario,3,395.7,1187.1,Negocios Lince EIRL,Iquitos
+82,17/04/2026,Monitor LG 24'' Full HD,Tecnologia,2,771.25,1542.5,Grupo Miraflores SAC,Iquitos
+103,19/04/2026,Laptop Lenovo IdeaPad 3,Tecnologia,2,2662.77,5325.54,Empresa Andes SAC,Arequipa
+115,19/04/2026,Resma Papel A4 75gr,Papeleria,2,20.38,40.76,Grupo Miraflores SAC,Arequipa
+181,20/04/2026,Silla Ergonomica Oficina,Mobiliario,2,562.14,1124.28,Empresa Andes SAC,Iquitos
+52,21/04/2026,Escritorio Madera 120cm,Mobiliario,1,368.84,368.84,Grupo Miraflores SAC,Cusco
+121,21/04/2026,Monitor LG 24'' Full HD,Tecnologia,2,811.26,1622.52,Tienda San Isidro,Chiclayo
+150,22/04/2026,Lampara LED Escritorio,Mobiliario,12,80.41,964.92,Servicios Surco SAC,Puno
+80,23/04/2026,Monitor LG 24'' Full HD,Tecnologia,8,770.07,6160.56,Distribuidora Pacifico SAC,Puno
+112,23/04/2026,Lampara LED Escritorio,Mobiliario,1,69.31,69.31,Tienda San Isidro,Huancayo
+239,23/04/2026,USB 32GB Kingston DataTraveler,Tecnologia,1,34.61,34.61,Soluciones La Molina,Iquitos
+12,24/04/2026,USB 32GB Kingston DataTraveler,Tecnologia,1,33.37,33.37,Comercial Inka EIRL,Puno
+186,25/04/2026,Cuaderno Universitario A4,Papeleria,1,7.87,7.87,Empresa Andes SAC,Puno
+223,25/04/2026,Cuaderno Universitario A4,Papeleria,8,7.69,61.52,Negocios Lince EIRL,Arequipa
+96,27/04/2026,Mouse Inalambrico Logitech M170,Tecnologia,1,70.66,70.66,Distribuidora Pacifico SAC,Cusco
+4,29/04/2026,Laptop Lenovo IdeaPad 3,Tecnologia,3,2524.5,7573.5,Mayorista Callao,Huancayo
+147,29/04/2026,Silla Ergonomica Oficina,Mobiliario,3,516.94,1550.82,Tienda San Isidro,Piura
+185,29/04/2026,Lampara LED Escritorio,Mobiliario,1,73.31,73.31,Servicios Surco SAC,Lima
+220,29/04/2026,Silla Ergonomica Oficina,Mobiliario,2,550.49,1100.98,Comercial Inka EIRL,Tacna
+176,30/04/2026,Webcam Logitech C270,Tecnologia,4,193.78,775.12,Comercial Inka EIRL,Iquitos
+245,01/05/2026,USB 32GB Kingston DataTraveler,Tecnologia,2,35.42,70.84,Tienda San Isidro,Piura
+31,02/05/2026,Escritorio Madera 120cm,Mobiliario,3,395.52,1186.56,Servicios Surco SAC,Huancayo
+161,03/05/2026,Mouse Inalambrico Logitech M170,Tecnologia,1,76.77,76.77,Servicios Surco SAC,Tacna
+24,04/05/2026,Teclado Mecanico Redragon Kumara,Tecnologia,8,178.67,1429.36,Servicios Surco SAC,Tacna
+194,05/05/2026,Resma Papel A4 75gr,Papeleria,5,23.64,118.2,Tienda San Isidro,Tacna
+215,06/05/2026,Escritorio Madera 120cm,Mobiliario,3,363.07,1089.21,Mayorista Callao,Piura
+119,07/05/2026,Resma Papel A4 75gr,Papeleria,2,21.94,43.88,Soluciones La Molina,Piura
+130,09/05/2026,Resma Papel A4 75gr,Papeleria,1,22.67,22.67,Negocios Lince EIRL,Piura
+58,10/05/2026,Teclado Mecanico Redragon Kumara,Tecnologia,5,173.22,866.1,Mayorista Callao,Trujillo
+234,11/05/2026,Boligrafos Caja x12,Papeleria,1,15.32,15.32,Mayorista Callao,Cusco
+88,12/05/2026,Monitor LG 24'' Full HD,Tecnologia,3,736.02,2208.06,Comercial Inka EIRL,Huancayo
+93,12/05/2026,Boligrafos Caja x12,Papeleria,2,15.87,31.74,Inversiones Los Olivos,Piura
+226,12/05/2026,Webcam Logitech C270,Tecnologia,3,175.78,527.34,Tienda San Isidro,Lima
+6,15/05/2026,USB 32GB Kingston DataTraveler,Tecnologia,1,33.76,33.76,Grupo Miraflores SAC,Arequipa
+208,15/05/2026,Teclado Mecanico Redragon Kumara,Tecnologia,1,188.26,188.26,Mayorista Callao,Cusco

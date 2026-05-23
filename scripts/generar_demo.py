@@ -38,8 +38,9 @@ def generar_csv(ruta, productos, clientes, n_ventas, fecha_inicio, fecha_fin, se
         )[0]
         fecha = fecha_inicio + timedelta(days=random.randint(0, delta_dias))
         filas.append({
+            "_dt": fecha,
             "id_venta": i,
-            "fecha": fecha.strftime("%Y-%m-%d"),
+            "fecha": fecha.strftime("%d/%m/%Y"),
             "producto": producto,
             "categoria": categoria,
             "cantidad": cantidad,
@@ -48,7 +49,9 @@ def generar_csv(ruta, productos, clientes, n_ventas, fecha_inicio, fecha_fin, se
             "cliente": random.choice(clientes),
             "ciudad": random.choice(CIUDADES_PE),
         })
-    filas.sort(key=lambda r: r["fecha"])
+    filas.sort(key=lambda r: r["_dt"])
+    for r in filas:
+        del r["_dt"]
 
     with open(ruta, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=list(filas[0].keys()))
