@@ -1,29 +1,50 @@
 {% extends "base.html" %}
 
 {% block contenido %}
-<div class="card">
-    <h2>Probar con datos de demostracion</h2>
-    <p>
-        Si solo quieres ver como funciona la aplicacion, usa el CSV de ejemplo
-        que ya incluye <strong>250 ventas ficticias</strong> de productos en
-        varias ciudades de Colombia.
-    </p>
-    <div class="botones">
-        <a href="{{ url_for('demo') }}" class="btn btn-primary">Usar datos de demo</a>
+<section class="hero">
+    <div class="hero-copy">
+        <span class="badge"><span class="dot"></span> Nuevo &middot; Analytics + IA</span>
+        <h1>El analizador de ventas <span class="accent">impulsado</span> por IA.</h1>
+        <p class="lead">
+            Sube tu CSV en Soles y obt&eacute;n m&eacute;tricas clave, gr&aacute;ficos
+            y un resumen ejecutivo autom&aacute;tico &mdash; listo para tomar
+            decisiones que muevan la aguja.
+        </p>
+        <div class="cta-row">
+            <a href="{{ url_for('subir') }}" class="btn btn-primary">Subir mi CSV &rarr;</a>
+            <a href="{{ url_for('demo') }}" class="btn btn-ghost">Probar con demo</a>
+        </div>
+        <p class="hero-hint">
+            &iquest;Primera vez? Pulsa <strong>&laquo;Probar con demo&raquo;</strong>
+            para ver el an&aacute;lisis con datos de ejemplo.
+        </p>
     </div>
-</div>
 
-<div class="card">
-    <h2>Analizar mi propio archivo</h2>
-    <p>
-        Sube un archivo <code>.csv</code> con tus ventas. Debe incluir al menos
-        las columnas: <code>fecha</code>, <code>producto</code>,
-        <code>categoria</code>, <code>cantidad</code>,
-        <code>precio_unitario</code>, <code>total</code>.
-    </p>
-    <form action="{{ url_for('analizar') }}" method="post" enctype="multipart/form-data">
-        <input type="file" name="archivo" accept=".csv" required>
-        <button type="submit" class="btn btn-primary">Analizar CSV</button>
-    </form>
-</div>
+    <div class="case-stack" aria-hidden="true">
+        <div class="case-card c1">
+            <div class="case-head">
+                <span>Caso &middot; 01</span>
+                <span class="case-tag">Demo</span>
+            </div>
+            <div class="case-metric">3.5&times;</div>
+            <div class="case-label">aumento en ingresos vs. mes anterior</div>
+        </div>
+        <div class="case-card c2">
+            <div class="case-head">
+                <span>Caso &middot; 02</span>
+                <span class="case-tag">IA</span>
+            </div>
+            <div class="case-metric">+175%</div>
+            <div class="case-label">crecimiento en producto estrella</div>
+        </div>
+        <div class="case-card c3">
+            <div class="case-head">
+                <span>Caso &middot; 03</span>
+                <span class="case-tag">Insight</span>
+            </div>
+            <div class="case-metric">&minus;18%</div>
+            <div class="case-label">reducci&oacute;n de costos detectada</div>
+        </div>
+    </div>
+</section>
 {% endblock %}

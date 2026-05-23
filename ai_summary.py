@@ -6,10 +6,11 @@ from openai import OpenAI, OpenAIError
 from config import MODEL_NAME, OPENAI_API_KEY, OPENAI_BASE_URL
 
 PROMPT_SISTEMA = (
-    "Eres un analista de negocios. Recibes metricas de ventas resumidas de una "
-    "empresa y debes redactar un resumen ejecutivo claro y util en espanol. "
-    "Manten un tono profesional, evita repetir los numeros uno a uno y enfocate "
-    "en hallazgos, tendencias y posibles acciones."
+    "Eres un analista de negocios en Peru. Recibes metricas de ventas resumidas "
+    "de una empresa peruana, expresadas en Soles (S/), y debes redactar un "
+    "resumen ejecutivo claro y util en espanol. Manten un tono profesional, "
+    "evita repetir los numeros uno a uno y enfocate en hallazgos, tendencias y "
+    "posibles acciones. Cuando menciones montos usa siempre el simbolo S/."
 )
 
 
@@ -22,28 +23,28 @@ def _formatear_datos(analisis: dict) -> str:
 
     lineas = [
         f"Periodo analizado: {m['fecha_inicio']} a {m['fecha_fin']}",
-        f"Ventas totales: ${m['total_ventas']:,.0f}",
+        f"Ventas totales: S/ {m['total_ventas']:,.0f}",
         f"Transacciones: {m['n_transacciones']}",
-        f"Ticket promedio: ${m['ticket_promedio']:,.0f}",
+        f"Ticket promedio: S/ {m['ticket_promedio']:,.0f}",
         f"Unidades vendidas: {m['unidades_vendidas']}",
         "",
         "Top productos:",
     ]
     for p in productos:
-        lineas.append(f"  - {p['producto']}: ${p['total']:,.0f} ({p['unidades']} und)")
+        lineas.append(f"  - {p['producto']}: S/ {p['total']:,.0f} ({p['unidades']} und)")
 
     lineas.append("\nVentas por categoria:")
     for c in categorias:
-        lineas.append(f"  - {c['categoria']}: ${c['total']:,.0f}")
+        lineas.append(f"  - {c['categoria']}: S/ {c['total']:,.0f}")
 
     lineas.append("\nVentas por mes:")
     for mes in meses:
-        lineas.append(f"  - {mes['mes_etiqueta']}: ${mes['total']:,.0f}")
+        lineas.append(f"  - {mes['mes_etiqueta']}: S/ {mes['total']:,.0f}")
 
     if clientes:
         lineas.append("\nTop clientes:")
         for cli in clientes:
-            lineas.append(f"  - {cli['cliente']}: ${cli['total']:,.0f}")
+            lineas.append(f"  - {cli['cliente']}: S/ {cli['total']:,.0f}")
 
     return "\n".join(lineas)
 
@@ -66,10 +67,11 @@ def generar_resumen(analisis: dict) -> str:
                 {
                     "role": "user",
                     "content": (
-                        "Estas son las metricas de ventas. Redacta un resumen "
-                        "ejecutivo de 4 a 6 parrafos cortos con hallazgos clave, "
-                        "tendencias observadas y al menos 2 recomendaciones "
-                        "concretas.\n\n" + datos
+                        "Estas son las metricas de ventas (todos los montos en "
+                        "Soles peruanos, S/). Redacta un resumen ejecutivo de 4 "
+                        "a 6 parrafos cortos con hallazgos clave, tendencias "
+                        "observadas y al menos 2 recomendaciones concretas.\n\n"
+                        + datos
                     ),
                 },
             ],

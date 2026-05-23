@@ -1,66 +1,59 @@
 {% extends "base.html" %}
-{% block titulo %}Dashboard - Analisis de Ventas{% endblock %}
+{% block titulo %}Dashboard &mdash; An&aacute;lisis de Ventas{% endblock %}
 
 {% block contenido %}
-<div class="card">
-    <h2>Resumen del periodo</h2>
-    <p>
-        Datos analizados entre <strong>{{ metricas.fecha_inicio }}</strong> y
-        <strong>{{ metricas.fecha_fin }}</strong>.
+<section class="dashboard-header">
+    <span class="badge"><span class="dot"></span> Reporte &middot; Generado por IA</span>
+    <h1>Resumen del <span class="accent">periodo</span> analizado.</h1>
+    <p class="periodo" id="periodo">
+        <span class="skel skel-text" style="width: 320px;"></span>
     </p>
-    <div class="metricas">
-        <div class="metrica">
-            <span class="valor">${{ "{:,.0f}".format(metricas.total_ventas) }}</span>
-            <span class="etiqueta">Ventas totales</span>
+</section>
+
+<div class="metricas" id="metricas">
+    {% for i in range(4) %}
+    <div class="metrica is-skel">
+        <div class="tag">
+            <span>Metric &middot; 0{{ i + 1 }}</span>
+            <span class="pill-small">&middot;&middot;&middot;</span>
         </div>
-        <div class="metrica">
-            <span class="valor">{{ metricas.n_transacciones }}</span>
-            <span class="etiqueta">Transacciones</span>
-        </div>
-        <div class="metrica">
-            <span class="valor">${{ "{:,.0f}".format(metricas.ticket_promedio) }}</span>
-            <span class="etiqueta">Ticket promedio</span>
-        </div>
-        <div class="metrica">
-            <span class="valor">{{ metricas.unidades_vendidas }}</span>
-            <span class="etiqueta">Unidades vendidas</span>
-        </div>
+        <span class="valor"><span class="skel skel-text" style="width: 140px; height: 38px;"></span></span>
+        <span class="etiqueta"><span class="skel skel-text" style="width: 75%;"></span></span>
+    </div>
+    {% endfor %}
+</div>
+
+<h2 class="section-title">Resumen ejecutivo de la IA</h2>
+<div id="resumen-box" class="resumen-ia is-loading">
+    <div class="ai-skel">
+        <span class="skel skel-text" style="width: 92%;"></span>
+        <span class="skel skel-text" style="width: 78%;"></span>
+        <span class="skel skel-text" style="width: 96%;"></span>
+        <span class="skel skel-text" style="width: 65%;"></span>
+        <span class="skel skel-text" style="width: 88%;"></span>
+        <span class="skel skel-text" style="width: 72%;"></span>
+        <span class="skel skel-text" style="width: 50%;"></span>
+    </div>
+    <div class="ai-hint">
+        <span class="spinner"></span>
+        <span>La IA est&aacute; redactando el resumen&hellip; esto puede tomar unos segundos.</span>
     </div>
 </div>
 
-<div class="card">
-    <h2>Resumen ejecutivo generado por IA</h2>
-    <div class="resumen-ia">{{ resumen_ia }}</div>
+<h2 class="section-title">Visualizaciones</h2>
+<div class="graficos" id="graficos">
+    <div class="grafico skel-chart g-wide"></div>
+    <div class="grafico skel-chart g-half"></div>
+    <div class="grafico skel-chart g-half"></div>
+    <div class="grafico skel-chart g-third"></div>
+    <div class="grafico skel-chart g-third"></div>
+    <div class="grafico skel-chart g-third"></div>
+    <div class="grafico skel-chart g-half"></div>
+    <div class="grafico skel-chart g-half"></div>
 </div>
 
-<div class="card">
-    <h2>Visualizaciones</h2>
-    <div class="graficos">
-        {% if graficos.top_productos %}
-        <div class="grafico">
-            <img src="{{ url_for('static', filename=graficos.top_productos) }}" alt="Top productos">
-        </div>
-        {% endif %}
-        {% if graficos.ventas_mes %}
-        <div class="grafico">
-            <img src="{{ url_for('static', filename=graficos.ventas_mes) }}" alt="Ventas por mes">
-        </div>
-        {% endif %}
-        {% if graficos.categorias %}
-        <div class="grafico">
-            <img src="{{ url_for('static', filename=graficos.categorias) }}" alt="Ventas por categoria">
-        </div>
-        {% endif %}
-        {% if graficos.top_clientes %}
-        <div class="grafico">
-            <img src="{{ url_for('static', filename=graficos.top_clientes) }}" alt="Top clientes">
-        </div>
-        {% endif %}
-    </div>
-</div>
-
-<div class="card">
-    <h2>Top productos (detalle)</h2>
+<h2 class="section-title">Top productos &mdash; detalle</h2>
+<div class="card tabla-card">
     <table>
         <thead>
             <tr>
@@ -69,19 +62,155 @@
                 <th>Unidades</th>
             </tr>
         </thead>
-        <tbody>
-            {% for fila in tabla_productos %}
+        <tbody id="tabla-body">
+            {% for _ in range(5) %}
             <tr>
-                <td>{{ fila.producto }}</td>
-                <td>${{ "{:,.0f}".format(fila.total) }}</td>
-                <td>{{ fila.unidades }}</td>
+                <td><span class="skel skel-text" style="width: 60%;"></span></td>
+                <td><span class="skel skel-text" style="width: 45%;"></span></td>
+                <td><span class="skel skel-text" style="width: 35%;"></span></td>
             </tr>
             {% endfor %}
         </tbody>
     </table>
 </div>
 
-<div class="botones">
-    <a href="{{ url_for('index') }}" class="btn btn-secondary">Analizar otro archivo</a>
+<div class="cta-row" style="margin-top: 2rem;">
+    <a href="{{ url_for('index') }}" class="btn btn-ghost">&larr; Analizar otro archivo</a>
+    <a href="{{ url_for('demo') }}" class="btn btn-primary">Volver a la demo</a>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script>
+(function () {
+    const JOB_ID = "{{ job_id }}";
+    const STATIC_BASE = "{{ url_for('static', filename='') }}";
+    const fmtMoney = (n) => "S/ " + Math.round(Number(n) || 0).toLocaleString("es-PE");
+    const fmtInt = (n) => Math.round(Number(n) || 0).toLocaleString("es-PE");
+
+    function escapeHtml(str) {
+        return String(str)
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;");
+    }
+
+    function renderMetricas(m) {
+        document.getElementById("periodo").innerHTML =
+            `Datos analizados entre <strong>${escapeHtml(m.fecha_inicio)}</strong> y <strong>${escapeHtml(m.fecha_fin)}</strong>.`;
+        const items = [
+            { tag: "Ventas", valor: fmtMoney(m.total_ventas), etiqueta: "Ventas totales del periodo" },
+            { tag: "Tx",     valor: fmtInt(m.n_transacciones), etiqueta: "Transacciones registradas" },
+            { tag: "Avg",    valor: fmtMoney(m.ticket_promedio), etiqueta: "Ticket promedio por venta" },
+            { tag: "Uds",    valor: fmtInt(m.unidades_vendidas), etiqueta: "Unidades vendidas" },
+        ];
+        const grid = document.getElementById("metricas");
+        grid.innerHTML = items.map((it, i) => `
+            <div class="metrica hydrated">
+                <div class="tag">
+                    <span>Metric &middot; 0${i + 1}</span>
+                    <span class="pill-small">${it.tag}</span>
+                </div>
+                <span class="valor">${it.valor}</span>
+                <span class="etiqueta">${it.etiqueta}</span>
+            </div>
+        `).join("");
+    }
+
+    function renderCharts(rutas) {
+        const slots = [
+            { key: "tendencia_diaria",  alt: "Tendencia diaria con promedio móvil", span: "g-wide" },
+            { key: "crecimiento_mom",   alt: "Crecimiento mes a mes",               span: "g-half" },
+            { key: "producto_estrella", alt: "Producto estrella - evolución",       span: "g-half" },
+            { key: "ventas_mes",        alt: "Evolución mensual",                   span: "g-third" },
+            { key: "top_productos",     alt: "Top productos",                       span: "g-third" },
+            { key: "categorias",        alt: "Distribución por categorías",         span: "g-third" },
+            { key: "top_clientes",      alt: "Top clientes",                        span: "g-half" },
+            { key: "dia_semana",        alt: "Ingresos por día de la semana",       span: "g-half" },
+        ];
+        const grid = document.getElementById("graficos");
+        const visibles = slots.filter(s => rutas[s.key]);
+        if (visibles.length === 0) {
+            grid.innerHTML = `<p style="color: var(--ink-soft);">No se generaron gráficos.</p>`;
+            return;
+        }
+        grid.innerHTML = visibles.map(s => `
+            <div class="grafico hydrated ${s.span}">
+                <img src="${STATIC_BASE}${rutas[s.key]}" alt="${s.alt}">
+            </div>
+        `).join("");
+    }
+
+    function renderTabla(filas) {
+        const tbody = document.getElementById("tabla-body");
+        if (!filas || filas.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="3" style="text-align:center; color: var(--ink-soft);">Sin datos</td></tr>`;
+            return;
+        }
+        tbody.innerHTML = filas.map(f => `
+            <tr>
+                <td>${escapeHtml(f.producto)}</td>
+                <td>${fmtMoney(f.total)}</td>
+                <td>${fmtInt(f.unidades)}</td>
+            </tr>
+        `).join("");
+    }
+
+    function renderResumen(texto) {
+        const box = document.getElementById("resumen-box");
+        box.classList.remove("is-loading");
+        box.classList.add("hydrated");
+        if (window.marked) {
+            marked.setOptions({ breaks: true, gfm: true });
+            box.innerHTML = `<div class="md">${marked.parse(String(texto || ""))}</div>`;
+        } else {
+            box.textContent = String(texto || "");
+        }
+    }
+
+    function renderError(section, msg) {
+        const map = {
+            metricas: "metricas",
+            charts:   "graficos",
+            tabla:    "tabla-body",
+            resumen:  "resumen-box",
+        };
+        const el = document.getElementById(map[section]);
+        if (!el) return;
+        el.classList.remove("is-loading");
+        el.innerHTML = `<div class="alert alert-error">No se pudo cargar <strong>${section}</strong>: ${escapeHtml(msg)}</div>`;
+    }
+
+    async function loadSection(name, renderer) {
+        let backoff = 600;
+        while (true) {
+            try {
+                const res = await fetch(`/api/job/${JOB_ID}/${name}`, { cache: "no-store" });
+                if (!res.ok) {
+                    renderError(name, "respuesta " + res.status);
+                    return;
+                }
+                const payload = await res.json();
+                if (payload.status === "ready") {
+                    renderer(payload.data);
+                    return;
+                }
+                if (payload.status === "error") {
+                    renderError(name, payload.data || "error desconocido");
+                    return;
+                }
+            } catch (e) {
+                renderError(name, e.message || "fallo de red");
+                return;
+            }
+            await new Promise(r => setTimeout(r, backoff));
+            backoff = Math.min(backoff + 200, 1500);
+        }
+    }
+
+    loadSection("metricas", renderMetricas);
+    loadSection("tabla", renderTabla);
+    loadSection("charts", renderCharts);
+    loadSection("resumen", renderResumen);
+})();
+</script>
 {% endblock %}

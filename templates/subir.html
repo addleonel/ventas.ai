@@ -1,0 +1,165 @@
+{% extends "base.html" %}
+{% block titulo %}Subir CSV &mdash; Ventas IA{% endblock %}
+
+{% block contenido %}
+<section class="subir-page">
+    <div class="subir-head">
+        <span class="badge"><span class="dot"></span> Paso 1 &middot; Subir archivo</span>
+        <h1>Sube tu <span class="accent">CSV</span> de ventas.</h1>
+        <p class="lead">
+            Analiza tus ventas en <strong>Soles (S/)</strong> en segundos.
+            Te devolveremos m&eacute;tricas, gr&aacute;ficas y un resumen
+            ejecutivo redactado por IA.
+        </p>
+    </div>
+
+    <form id="form-upload" action="{{ url_for('analizar') }}" method="post" enctype="multipart/form-data" class="upload-form">
+        <label for="file-input" id="dropzone" class="dropzone">
+            <input id="file-input" type="file" name="archivo" accept=".csv" required hidden>
+            <div class="dz-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="17 8 12 3 7 8"></polyline>
+                    <line x1="12" y1="3" x2="12" y2="15"></line>
+                </svg>
+            </div>
+            <div class="dz-text">
+                <strong>Arrastra tu archivo .csv aqu&iacute;</strong>
+                <span>o haz click para seleccionarlo desde tu equipo</span>
+            </div>
+            <div id="file-preview" class="dz-preview" hidden>
+                <span class="dz-file-icon">CSV</span>
+                <div class="dz-file-info">
+                    <strong id="file-name"></strong>
+                    <span id="file-size"></span>
+                </div>
+                <button type="button" id="file-clear" class="dz-clear" aria-label="Quitar archivo">&times;</button>
+            </div>
+        </label>
+
+        <div class="upload-actions">
+            <button type="submit" id="btn-submit" class="btn btn-primary" disabled>
+                <span class="btn-label">Analizar archivo &rarr;</span>
+            </button>
+            <a href="{{ url_for('index') }}" class="btn btn-ghost">&larr; Volver al inicio</a>
+        </div>
+    </form>
+
+    <div class="subir-grid">
+        <div class="schema-card">
+            <div class="card-head">
+                <span class="pill-mini">Schema</span>
+                <h2>Estructura esperada del CSV</h2>
+            </div>
+            <table class="schema-table">
+                <thead>
+                    <tr><th>Columna</th><th>Obligatoria</th><th>Ejemplo</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><code>fecha</code></td><td><span class="tag-yes">S&iacute;</span></td><td>2026-05-12</td></tr>
+                    <tr><td><code>producto</code></td><td><span class="tag-yes">S&iacute;</span></td><td>Lomo Saltado</td></tr>
+                    <tr><td><code>categoria</code></td><td><span class="tag-yes">S&iacute;</span></td><td>Platos de Fondo</td></tr>
+                    <tr><td><code>cantidad</code></td><td><span class="tag-yes">S&iacute;</span></td><td>2</td></tr>
+                    <tr><td><code>precio_unitario</code></td><td><span class="tag-yes">S&iacute;</span></td><td>28.00</td></tr>
+                    <tr><td><code>total</code></td><td><span class="tag-yes">S&iacute;</span></td><td>56.00</td></tr>
+                    <tr><td><code>cliente</code></td><td><span class="tag-no">Opcional</span></td><td>Cliente Frecuente</td></tr>
+                    <tr><td><code>ciudad</code></td><td><span class="tag-no">Opcional</span></td><td>Lima</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="notes-card">
+            <div class="card-head">
+                <span class="pill-mini">Notas</span>
+                <h2>Antes de subir</h2>
+            </div>
+            <ul class="notes-list">
+                <li><strong>Moneda:</strong> todos los montos en Soles peruanos (S/).</li>
+                <li><strong>Fechas:</strong> formato <code>YYYY-MM-DD</code> recomendado.</li>
+                <li><strong>Encoding:</strong> UTF-8 (recomendado).</li>
+                <li><strong>Tama&ntilde;o m&aacute;ximo:</strong> 5 MB por archivo.</li>
+                <li><strong>Separador:</strong> coma (<code>,</code>).</li>
+                <li>Si tu CSV no incluye <code>cliente</code>, el an&aacute;lisis omitir&aacute; el ranking de clientes.</li>
+            </ul>
+            <p class="notes-foot">
+                &iquest;No tienes un CSV a la mano?
+                <a href="{{ url_for('demo') }}">Prueba con datos demo</a>.
+            </p>
+        </div>
+    </div>
+</section>
+
+<script>
+(function () {
+    const dropzone = document.getElementById("dropzone");
+    const input = document.getElementById("file-input");
+    const preview = document.getElementById("file-preview");
+    const nameEl = document.getElementById("file-name");
+    const sizeEl = document.getElementById("file-size");
+    const clearBtn = document.getElementById("file-clear");
+    const submitBtn = document.getElementById("btn-submit");
+    const form = document.getElementById("form-upload");
+
+    function formatBytes(b) {
+        if (b < 1024) return b + " B";
+        if (b < 1024 * 1024) return (b / 1024).toFixed(1) + " KB";
+        return (b / 1024 / 1024).toFixed(2) + " MB";
+    }
+
+    function showFile(file) {
+        nameEl.textContent = file.name;
+        sizeEl.textContent = formatBytes(file.size);
+        preview.hidden = false;
+        dropzone.classList.add("has-file");
+        submitBtn.disabled = false;
+    }
+
+    function clearFile() {
+        input.value = "";
+        preview.hidden = true;
+        dropzone.classList.remove("has-file");
+        submitBtn.disabled = true;
+    }
+
+    input.addEventListener("change", () => {
+        if (input.files[0]) showFile(input.files[0]);
+        else clearFile();
+    });
+
+    clearBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        clearFile();
+    });
+
+    ["dragenter", "dragover"].forEach((evt) => {
+        dropzone.addEventListener(evt, (e) => {
+            e.preventDefault();
+            dropzone.classList.add("is-dragging");
+        });
+    });
+    ["dragleave", "drop"].forEach((evt) => {
+        dropzone.addEventListener(evt, (e) => {
+            e.preventDefault();
+            dropzone.classList.remove("is-dragging");
+        });
+    });
+    dropzone.addEventListener("drop", (e) => {
+        const f = e.dataTransfer.files && e.dataTransfer.files[0];
+        if (!f) return;
+        if (!f.name.toLowerCase().endsWith(".csv")) {
+            alert("Por favor sube un archivo .csv");
+            return;
+        }
+        input.files = e.dataTransfer.files;
+        showFile(f);
+    });
+
+    form.addEventListener("submit", () => {
+        submitBtn.disabled = true;
+        submitBtn.classList.add("is-loading");
+        submitBtn.innerHTML = '<span class="spinner spinner-inline"></span><span class="btn-label">Subiendo&hellip;</span>';
+    });
+})();
+</script>
+{% endblock %}

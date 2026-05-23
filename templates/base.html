@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block titulo %}Analizador de Ventas{% endblock %}</title>
+    <title>{% block titulo %}Ventas IA &mdash; Analizador inteligente{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <header>
-        <h1>Analizador de Ventas con IA</h1>
-        <p>Sube tu CSV y obten metricas, graficos y un resumen ejecutivo automatico.</p>
+    <header class="site-header">
+        <a href="{{ url_for('index') }}" class="brand">ventas.ia</a>
+        <nav class="nav-pills">
+            <a href="{{ url_for('index') }}" class="pill pill-yellow">Inicio</a>
+            <a href="{{ url_for('demo') }}" class="pill pill-mint">Demo</a>
+            <a href="{{ url_for('subir') }}" class="pill pill-dark">Subir CSV &rarr;</a>
+        </nav>
     </header>
+
     <main>
         {% with mensajes = get_flashed_messages(with_categories=true) %}
             {% for categoria, mensaje in mensajes %}
@@ -19,8 +24,9 @@
         {% endwith %}
         {% block contenido %}{% endblock %}
     </main>
+
     <footer>
-        Proyecto Programacion II &middot; Flask + Pandas + Matplotlib + OpenAI
+        Proyecto Programaci&oacute;n II &middot; Flask + Pandas + Matplotlib + OpenAI
     </footer>
 </body>
 </html>

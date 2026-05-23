@@ -86,12 +86,71 @@ def top_clientes(df: pd.DataFrame, top_n: int = 5) -> pd.DataFrame:
     )
 
 
+DIAS_ES = {
+    "Monday": "Lun", "Tuesday": "Mar", "Wednesday": "Mie",
+    "Thursday": "Jue", "Friday": "Vie", "Saturday": "Sab", "Sunday": "Dom",
+}
+ORDEN_DIAS = ["Lun", "Mar", "Mie", "Jue", "Vie", "Sab", "Dom"]
+
+
+def crecimiento_mom(df_mes: pd.DataFrame) -> pd.DataFrame:
+    out = df_mes.copy()
+    out["pct_change"] = out["total"].pct_change().fillna(0) * 100
+    return out
+
+
+def producto_estrella_evolucion(df: pd.DataFrame):
+    totales = df.groupby("producto")["total"].sum().sort_values(ascending=False)
+    if totales.empty:
+        return None
+    nombre = totales.index[0]
+    sub = df[df["producto"] == nombre]
+    serie = (
+        sub.set_index("fecha")["total"]
+        .resample("W-MON")
+        .sum()
+        .reset_index()
+    )
+    serie["etiqueta"] = serie["fecha"].dt.strftime("%d-%b")
+    return {"producto": nombre, "total": float(totales.iloc[0]), "serie": serie}
+
+
+def ventas_diarias_con_ma(df: pd.DataFrame, window: int = 7) -> pd.DataFrame:
+    diario = (
+        df.set_index("fecha")["total"]
+        .resample("D")
+        .sum()
+        .fillna(0)
+        .reset_index()
+    )
+    diario["ma"] = diario["total"].rolling(window=window, min_periods=1).mean()
+    return diario
+
+
+def ventas_por_dia_semana(df: pd.DataFrame) -> pd.DataFrame:
+    s = df.copy()
+    s["dia_en"] = s["fecha"].dt.day_name()
+    s["dia"] = s["dia_en"].map(DIAS_ES)
+    return (
+        s.groupby("dia")["total"]
+        .sum()
+        .reindex(ORDEN_DIAS)
+        .fillna(0)
+        .reset_index()
+    )
+
+
 def analizar(df: pd.DataFrame) -> dict:
     """Ejecuta todo el analisis y devuelve un dict con los resultados."""
+    por_mes = ventas_por_mes(df)
     return {
         "metricas": metricas_generales(df),
         "por_producto": ventas_por_producto(df),
-        "por_mes": ventas_por_mes(df),
+        "por_mes": por_mes,
         "por_categoria": ventas_por_categoria(df),
         "top_clientes": top_clientes(df),
+        "crecimiento_mom": crecimiento_mom(por_mes),
+        "producto_estrella": producto_estrella_evolucion(df),
+        "diario_ma": ventas_diarias_con_ma(df),
+        "dia_semana": ventas_por_dia_semana(df),
     }
